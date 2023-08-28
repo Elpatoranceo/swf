@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <String id="strPlayGame">PLAY GAME</String>
+  <String id="strOptions">OPTIONS</String>
+  <String id="strHeaderPlayGame">PLAY game</String>
+  <String id="strPlayTutorial">PLAY TUTORIAL</String>
+  <String id="strNewGame">NEW GAME</String>
+  <String id="strResumeGame">RESUME GAME</String>
+  
+  <String id="strHeaderOptions">OPTIONS</String>
+  <String id="strClose">CLOSE</String>
+  <String id="strMusicVolume">MUSIC volume</String>
+  <String id="strSFXVolume">SFX volume</String>
+  
+  <String id="strAD">A.D.</String>
+  <String id="strDC">D.C.</String>
+  <String id="strVikingAge">viking\nage</String>
+  <String id="strFrenchRevolution">french\nrevolution</String>
+  
+  <String id="strMap">MAP</String>
+  <String id="strMenu">MENU</String>
+  <String id="strBack">BACK</String>
+  <String id="strClose">CLOSE</String>
+  
+  <String id="strHeaderGamePaused">GAME PAUSED</String>
+  <String id="strContinue">CONTINUE</String>
+  <String id="strOptions">OPTIONS</String>
+  <String id="strMainMenu">MAIN MENU</String>
+  <String id="strExitTutorial">EXIT TUTORIAL</String>
+  
+  <String id="strDownload">DOWNLOAD</String>
+  <String id="strUpsellHeader">Mortimer Beckett and \nThe Time Paradox</String>
+  <String id="strUpsellMessageRight">\n&lt;B&gt;&lt;FONT COLOR=&quot;#660000&quot;&gt;Full Version Features:&lt;/FONT&gt;\n\n\n\nEight Different\nEras to Explore\n\nHours of Hidden\nObject Fun&lt;/B&gt;</String>
+  <String id="strUpsellMessageLeft">\n\n\n\nUnlimited Play\n\nStirring Storyline\n\nAmazing Full\nScreen Graphics</String>
+  <String id="strPlayAgain">PLAY AGAIN</String>
+  
+  <!-- Pop up -->
+  <String id="strHelp00">\n            THE THREE ITEMS\n          SHOWN BELOW ARE\n        BROKEN INTO PIECES\n             AND SCATTERED\n         ACROSS THE ROOM.\n\n      YOUR FIRST TASK IS\n TO LOCATE AND COLLECT\n            THE PIECES.</String>
+  <String id="strHelp01">\n\n\n       NOW CLICK ON\n          THIS PIECE\n   OF THE BARREL LID\n      TO COLLECT IT.</String>
+  <String id="strHelp02">\n\n\n          &lt;FONT SIZE=&quot;25&quot;&gt;GOOD.&lt;/FONT&gt;\n\n      NOW COLLECT\n   THE REMAINING PIECE.</String>
+  <String id="strHelp03">\n\n\n         YOU'VE COLLECTED\n           YOUR FIRST\n          WHOLE ITEM\n     AND IT'S NOW PLACED\n      IN YOUR INVENTORY.</String>
+  <String id="strHelp04">\n\n         NOW COLLECT\n       THE REMAINING\n          TWO ITEMS.\n    WHEN YOU'RE UNABLE\n     TO FIND A PIECE,\n       CLICK ON THE\n      HINT BUTTON.</String>
+  <String id="strHelp05">\n           &lt;FONT SIZE=&quot;25&quot;&gt;GOOD WORK!&lt;/FONT&gt;\n\n          YOU'VE COLLECTED\n       TWO MISPLACED ITEMS\n       AND ONE PUZZLE ITEM.\n\n  MISPLACED ITEMS NEED\nTO BE RETURNED TO THEIR\n         CORRECT PLACE.\n          IN THE ROOM.</String>
+  <String id="strHelp06">\n\n\n         NOW CLICK\n     ON THE BARREL LID\n         TO PICK IT UP\n   FROM THE INVENTORY.</String>
+  <String id="strHelp07">           NOTICE THE BARREL\n            IN THE ROOM IS\n              MISSING A LID.\n         WHEN YOU HOVER THE\n     MOUSE CURSOR OVER THE\n      BARREL, YOU WILL SEE\nROTATING GEARS NEXT TO IT,\n   INDICATING A HOT-SPOT\n      WHERE YOU MAY USE\n       A COMPLETED ITEM\n    FROM THE INVENTORY.</String>
+  <String id="strHelp08">\n\n\n       NOW PLACE THE\n      PLATE FRAGMENT\n      FROM YOUR INVENTORY\n        ON THIS\n    BROKEN PLATE HERE.</String>
+  <String id="strHelp09">\n\n       &lt;FONT SIZE=&quot;25&quot;&gt;GOOD!&lt;/FONT&gt;\n\n          NOW LOCATE\nAND COLLECT THE PIECES\n       OF THE RED HAT\n          AND THE KEY.</String>
+  <String id="strHelp10">           NOT ALL PIECES OF\n           ITEMS ARE LOCATED\n           IN THE MAIN ROOM.\n         SOMETIMES YOU NEED\n        TO MOVE DEEPER INTO\n      THE ROOM AND EXPLORE\n      THAT LOCATION AS WELL.\n\n   CLICK ON THE\n   CHAPEL ENTRANCE\n    TO ENTER CHAPEL.</String>
+  <String id="strHelp11">\n\n\n             THERE IT IS.\n\n\nCOLLECT THE REMAINING\n  PIECE OF THE RED HAT.</String>
+  <String id="strHelp12">\n            YOU HAVE ONE MORE\n             COMPLETED MISPLACED\n             ITEM LEFT IN YOUR\n               INVENTORY, BUT\n            A MISPLACED ITEM'S\n   BELONGING PLACE DOES NOT\n    NECESSARILY RESIDE IN THE\n     SAME ROOM WHERE YOU\n       COLLECTED THE ITEM.\n         NAVIGATE BETWEEN\n   ROOMS BY USING THE MAP.\n\n             CLICK ON THE\n          MAP BUTTON NOW.</String>
+  <String id="strHelp13">\n\n\n\n              NOW CLICK\n           ON THE CHAPEL.</String>
+  <String id="strHelp14">\n            THE REMAINING PIECE\n            OF THE KEY IS HIDDEN\n           INSIDE THE STONE CHEST.\n            THE CHEST HAS THREE\n              LEVERS ON IT'S SIDE.\n IN ORDER TO OPEN THE CHEST,\nYOU NEED TO SET ALL LEVERS IN\n  THE CORRECT POSITION. TO\nLEARN THE CORRECT POSITION\n OF LEVERS, YOU NEED TO FIND\nA CLUE. LET'S GO BACK OUTSIDE.\n\n              CLICK ON THE\n          BACK BUTTON NOW.</String>
+  <String id="strHelp15">\n                  SEE THAT CROW\n                    OVER THERE?\n             ITS HOLDING A PIECE OF\n                PAPER IN ITS BEAK.\n         THAT MIGHT BE THE CLUE\n         YOU NEED. THIS IS WHERE\n PUZZLE ITEMS COME IN HANDY.\n   SINCE CROWS ARE FOND OF\n  SHINY OBJECTS, LET'S OFFER IT\n   THE SHINY KNOB FROM YOUR\n                   INVENTORY.\n\n        PICK UP THE KNOB AND\n        "USE" IT ON THE CROW.</String>
+  <String id="strHelp16">\n\n\n\n\nTHERE ARE NO MORE\nPIECES TO BE FOUND AT THIS\nLOCATION.\nTRY SEARCHING ELSEWHERE.</String>
+  <String id="strHelp17">\n\n\n     NOW PLACE THE\n     BARREL LID BY\n     CLICKING ON \n     THIS HOT-SPOT.</String>
+  <String id="strHelp18">\n&lt;FONT SIZE=&quot;28&quot; COLOR=&quot;#9C0000&quot;&gt;                GREAT!&lt;/FONT&gt;\n\n                       I'VE COLLECTED\n                       THE FIRST PART\n                              OF THE\n                          TIME BOMB.</String>
+  <String id="strHelp19">\n     &lt;FONT COLOR=&quot;#9C0000&quot;&gt;NOT ALL THE\n     PIECES OF ITEMS\n     MAY BE VISIBLE\n     AT THE MOMENT.&lt;/FONT&gt;\n\nTRY PUTTING SOME ITEMS\n BACK FIRST.</String>
+  <!--<String id="strHelp19">\n     &lt;FONT COLOR=&quot;#9C0000&quot;&gt;NOT ALL THE\n     PIECES OF ITEMS\n     MAY BE VISIBLE\n     AT FIRST.&lt;/FONT&gt;\n\nIN THIS CASE I NEED TO\nEITHER EXPLORE DEEPER\nINTO THE ROOM OR\nPERFORM SOME ACTIONS\nUSING THE PUZZLE ITEMS\nIN ORDER TO REVEAL\nTHE HIDDEN PIECES.</String>-->
+  <!--<String id="strHelp19">\n     &lt;FONT COLOR=&quot;#9C0000&quot;&gt;NOT ALL THE\n     PIECES OF ITEMS\n     MAY BE VISIBLE.&lt;/FONT&gt;</String>-->
+  <String id="strHelp20">\n\n\n        THE CROW GRABBED\n       THE SHINY KNOB,\n      DROPPING THE PIECE\n   OF PAPER.\n   COPY THE IMAGE FROM\n  THE PAPER TO\nYOUR NOTEBOOK.</String>
+  <String id="strHelp21">\n\n\n  NOW THAT YOU\n  HAVE THE CLUE TO THE\n  STONE CHEST PUZZLE,\n  ENTER THE CHAPEL AGAIN\n  AND SOLVE THE PUZZLE\n  BY SETTING THE LEVERS\n  TO THE RIGHT POSITION.</String>
+  <String id="strHelp22">\n\n\n     EXCELLENT WORK!\n\n     NOW COLLECT THE\n     LAST PIECE OF THE KEY\n     AND GO BACK OUTSIDE.</String>
+  <String id="strHelp24">\n\n\n  NOW PUT\n  THE RED HAT\n  ON THIS\n  GARDEN GNOME\n  OVER HERE.</String>
+  <String id="strHelp25">\n\n\n  &lt;FONT SIZE=&quot;25&quot;&gt;GREAT!&lt;/FONT&gt;\n\n  NOW USE THE MAP\n  TO GO BACK\n  TO THE MANOR.</String>
+  <String id="strHelp26">\n\n\n\n         ALL THAT'S LEFT TO DO\n        NOW IS TO UNLOCK\nTHAT DOOR USING THE KEY\nFROM YOUR INVENTORY\nAND ENTER THE TIME PORTAL\nTO COMPLETE THE TUTORIAL.</String>
+  <String id="strHelp27">\n\n\n          YOU'LL HAVE TO WAIT\n        FOR THE HINT METER\n          TO FILL UP\n          BEFORE YOU CAN\n          USE THE HINT AGAIN.</String>
+  
+  <String id="strPopUp001">                            WAIT.\n                        MY UNCLE\n                         TOLD ME\n                     NOT TO ENTER\n                      THE PORTAL\n                     BEFORE I PUT\n                 EVERYTHING BACK\n                  TO ITS PLACE.</String>
+  <String id="strPopUp002">                          THERE ARE\n                              SOME\n                           NUMBERS\n                        WRITTEN ON\n                           THE FLAG.\n                    I WONDER WHAT\n                         THEY MEAN.\n                     I BETTER WRITE\n                 THEM DOWN IN MY\n                         NOTEBOOK.</String>
+  <String id="strPopUp003">                      I CAN'T REACH\n                        THAT HIGH.\n\n\n                           I NEED\n                      SOMETHING\n                      TO HELP ME\n                            CLIMB.</String>
+  <String id="strPopUp005">\n                          THE\n                    FIREPLACE\n                      IS EMPTY.\n\n		      I NEED\n		 SOME WOOD\n                 BEFORE I CAN\n               LIGHT THE FIRE.</String>
+  <String id="strPopUp006">                           THERE IS\n                               NOT\n                          ENOUGH\n                      WOOD IN THE\n                         FIREPLACE.\n\n                             I NEED\n                        SOME MORE.</String>
+  <String id="strPopUp007">\n                           THE FIRE\n                        MELTED THE\n                       FROST GIANT.\n\n                     THE WAY TO THE\n                   CAVE IS NOW OPEN.</String>
+  <String id="strPopUp008">\n                      I CAN'T ENTER\n                           THE CAVE\n                        WHILE THAT\n                       FROST GIANT\n                    IS GUARDING IT.</String>
+  <String id="strPopUp010">                         I AM FREYA,\n                      THE GODDESS\n                           OF WAR.\n\n                        SOME OF MY\n                       BELONGINGS\n                        ARE MISSING.\n                        BRING THEM\n                   TO ME AND I WILL\n                        REWARD YOU.</String>
+  <String id="strPopUp011">\n\n                           BEFORE I\n                       REWARD YOU,\n                         I WANT MY\n                   BELONGINGS BACK.</String>
+  <String id="strPopUp012">                    I SEE YOU'VE\n                     MADE SOME\n                     PROGRESS, BUT\n                    YOU STILL HAVEN'T\n                    RETURNED ALL\n                   OF MY PROPERTY\n                 TO ME.\n\n                   DO IT NOW.\n     I'M LOSING MY PATIENCE.</String>
+  <String id="strPopUp013">\n                          I THINK I'M\n                          DONE HERE.\n\n                            I BETTER\n                          CHECK OUT\n                         THE REST OF\n                     THIS TIME ZONE.</String>
+  <String id="strPopUp014">\n                              NOW\n                     THAT I'M DONE\n                         WITH THIS\n                         TIME ZONE,\n                         I CAN LEAVE\n                            FOR THE\n                          NEXT ONE.</String>
+  <String id="strPopUp015">                          I SEE SOME\n                       LETTERS HERE,\n                      BUT THEY SEEM\n                     TO BE MIRRORED.\n                    IF I COULD ONLY\n                  FIND A REFLECTIVE\n                 SURFACE TO USE AS\n             A MIRROR, I THINK I\n         MIGHT BE ABLE TO READ\n               THE INSCRIPTION.</String>
+  <String id="strPopUp016">                    NOW I AM ABLE\n                     TO READ THE\n		     TEXT. IT LOOKS\n		     LIKE A STRANGE\n                    LITTLE STORY.\n                   I BETTER WRITE IT\n                 DOWN, MAYBE IT\n          HAS A DEEPER MEANING\n                THAT'S BEYOND\n           MY GRASP RIGHT NOW.</String>
+  <String id="strPopUp017">&lt;FONT SIZE=&quot;16&quot;&gt;                       I HAVE HERE\n                      A FINE SELECTION\n                      OF ITEMS FOR SALE,\n                      DON'T YOU THINK?\n                     THOUGH A PIECE OF\n                    THE KING'S JEWELRY\n                  WOULD MAKE A NICE\n              ADDITION TO MY\n  COLLECTION. IF YOU COULD\n  GET ME ONE, I WOULD GIVE\n  YOU SOMETHING IN RETURN.&lt;/FONT&gt;</String>
+  <String id="strPopUp018">                      AH, FINALLY!\n\n                           WHAT A\n                       WONDERFUL\n                     PIECE OF WORK\n                            IT IS.\n                 HERE, TAKE THIS IN\n                          RETURN.\n                 YOU MAY FIND IT\n                         USEFUL.</String>
+  <String id="strPopUp019">&lt;FONT SIZE=&quot;16&quot;&gt;                         OH, MY GOD!\n\n                                THE\n                      REVOLUTIONARIES\n                     ARE COMING THIS\n                       WAY. I MUST FLEE\n                          THE PALACE.\n                      PLEASE HELP ME!\n          BRING ME SOME DISGUISE\n             AND I WILL REWARD\n                   YOU IN GOLD.&lt;/FONT&gt;</String>
+  <String id="strPopUp020">                            WHAT?!\n                      THAT'S ALL YOU\n                        COULD FIND?\n\n                     WELL, I GUESS IT'LL\n                         HAVE TO DO.\n\n              HERE IS THE REWARD\n                    I PROMISED.</String>
+  <String id="strPopUp021">&lt;FONT SIZE=&quot;15&quot;&gt;                      I CAN'T LET YOU IN.\n                              I'M AFRAID\n                        I WOULD LOSE MY\n                        JOB, AND I HAVE A\n                       STARVING FAMILY TO\n                       FEED. HOWEVER, IF\n                    YOU WOULD GIVE ME\n                SOMETHING TO SUPPORT\n           MY FAMILY, I MIGHT NOT BE\n         AFRAID ABOUT LOSING MY\n        JOB ANYMORE, IF YOU KNOW\n                    WHAT I MEAN.&lt;/FONT&gt;</String>
+  <String id="strPopUp022">&lt;FONT SIZE=&quot;15&quot;&gt;                       WHAT A GENEROUS\n                           MAN YOU ARE!\n                             THANK YOU\n                               SO MUCH.\n\n                       I CAN'T WAIT TO GET\n                         HOME AND SHOW\n                          THIS TO MY WIFE.\n                  IT WILL MAKE HER AND\n                   THE KIDS VERY HAPPY.\n      IN FACT, I REALLY CAN'T WAIT.\n                 I'M OUT OF HERE.&lt;/FONT&gt;</String>
+  <String id="strPopUp024">&lt;FONT SIZE=&quot;15&quot;&gt;                                 GREAT!\n\n                            I SEEM TO HAVE\n                               PLACED ALL\n                           THE PORTRAITS\n                         IN THEIR CORRECT\n                              POSITIONS.\n                      BUT I STILL NEED TO\n                     FIND THAT MISSING\n                    PORTRAIT AND PUT IT\n                     HERE TO COMPLETE\n                       THE FAMILY TREE.&lt;/FONT&gt;</String>
+  <String id="strPopUp025">\n                 LOOKS LIKE SOME\n                      KIND OF\n                  FAMILY TREE,\n             BUT IT'S MESSED UP.\n\n       LET ME SEE IF I CAN\n  PUT IT IN ORDER AND SEE\n         WHAT HAPPENS.</String>
+  <String id="strPopUp026">                LOOKS LIKE I NEED\n                   TO REARRANGE\n                 THESE FIGURINES\n                   IN THE RIGHT\n                         ORDER.\n\n      I BET I CAN FIND A CLUE\n       TO THE RIGHT ORDER\n        SOMEWHERE IN THIS\n                TIME ZONE</String>
+  <String id="strPopUp027">                LOOKS LIKE I NEED\n                   TO REARRANGE\n                 THESE FIGURINES\n                   IN THE RIGHT\n                         ORDER.\n\n            I THINK IT HAS\n  SOMETHING TO DO WITH\nTHAT STORY I WROTE DOWN\n         IN MY NOTEBOOK</String>
+  <String id="strPopUp100">\n                       I think I saw\n                      some numbers\n                     written on the\n                       flag in the\n                         village.\n\n                Maybe I should try\n          dialing those numbers\n          and see what happens.</String>
+  <String id="strPopUp101">\n\n                       I wonder if this\n                       phone booth\n                    and the payphone\n                      in the tavern\n                      are somehow\n                       connected?</String>
+  
+  <!-- GAME TEXTS -->
+  <String id = "HINT">HINT</String>
+  <!-- Inventuries -->
+    <!-- level1 -->
+  <String id = "FLINT STONES">FLINT STONES</String> 
+  <String id = "OLD SHOE">OLD SHOE</String>
+  <String id = "GOLDEN SHIELD">GOLDEN SHIELD</String>
+  <String id = "TRAY">TRAY</String>
+  <String id = "FIREWOOD1">FIREWOOD</String>
+  <String id = "LADDER">LADDER</String>
+  <String id = "RUBY">RUBY</String>
+  <String id = "WING">WING</String>
+  <String id = "PIGLETS">PIGLETS</String>
+  <String id = "ROPE KNOT">ROPE KNOT</String>
+  <String id = "PATCH">PATCH</String>
+  <String id = "GOLDEN SWORD">GOLDEN SWORD</String>
+  <String id = "FIREWOOD2">FIREWOOD</String>
+  <String id = "JUG">JUG</String>
+  <String id = "HAMMER">HAMMER</String>
+  <String id = "CAT STATUE HEAD">CAT STATUE HEAD</String>
+  <String id = "EGGS">EGGS</String>
+  <String id = "BEAD">BEAD</String>
+  <String id = "CHAIN">CHAIN</String>
+  <String id = "STONE CROWN">STONE CROWN</String>
+    <!-- level2 -->
+  <String id="SHARP TOOL">SHARP TOOL</String>
+  <String id="WIG">WIG</String>
+  <String id="BOOK">BOOK</String>
+  <String id="PORTRAIT">PORTRAIT</String>
+  <String id="APPLE">APPLE</String>
+  <String id="COIN">COIN</String>
+  <String id="DOOR KNOCKER">DOOR KNOCKER</String>
+  <String id="BLENDER JUG">BLENDER JUG</String>
+  <String id="PLANE PROPELLER">PLANE PROPELLER</String>
+  <String id="CROWN">CROWN</String>
+  <String id="MASK">MASK</String>
+  <String id="WOODEN EYE">WOODEN EYE</String>
+  <String id="UMBRELLA">UMBRELLA</String>
+  <String id="GLOBE">GLOBE</String>
+  <String id="CANDLE">CANDLE</String>
+  <String id="KEY">KEY</String>
+  <String id="PHARAOH MASK">PHARAOH MASK</String>
+  <String id="TANK GUN">TANK GUN</String>
+  <String id="DISK">COMPACT DISK</String>
+  <String id="LOUDSPEAKER">LOUDSPEAKER</String>
+    <!-- tutorial -->
+  <String id="SHINY KNOB">SHINY KNOB</String>
+  <String id="BARREL LID">BARREL LID</String>
+  <String id="RED HAT">RED HAT</String>
+  <String id="PLATE FRAGMENT">PLATE FRAGMENT</String>
+  <String id="KEY1">KEY</String>
+  <!-- Stage objects -->
+    <!-- level1 -->
+  <String id = "PIG">PIG</String>
+  <String id = "WALL">WALL</String>
+  <String id = "NEST">NEST</String>
+  <String id = "GO TO THE SHIP">GO TO\nTHE SHIP</String>
+  <String id = "ANCHOR">ANCHOR</String>
+  <String id = "TORN SAIL">TORN SAIL</String>
+  <String id = "FIREPLACE">FIREPLACE</String>
+  <String id = "ENTER CAVE">ENTER CAVE</String>
+  <String id = "STONE STATUE">STONE\nSTATUE</String>
+  <String id = "ANVIL">ANVIL</String>
+  <String id = "RUBY SHIELD">RUBY SHIELD</String>
+  <String id = "NECKLACE">NECKLACE</String>
+  <String id = "SLEEPING CAT">SLEEPING CAT</String>
+  <String id = "VIKING HELMENT">VIKING\nHELMENT</String>
+  <String id = "TAVERN KEEPER">TAVERN\nKEEPER</String>
+  <String id = "PUBLIC PHONE">PUBLIC\nPHONE</String>
+  <String id = "CAT STATUE">CAT STATUE</String>
+  <String id = "FREYA">FREYA\nTHE GODDES</String>
+  <String id = "ROPES">ROPES</String>
+  <String id = "JUGS">JUGS</String>
+  <String id = "EXAMINE FLAG">EXAMINE FLAG</String>
+  <String id = "ENTER PORTAL">ENTER PORTAL</String>
+    <!-- level2 -->
+  <String id = "LADY IN GREEN">LADY\nIN GREEN</String>   
+  <String id = "EXAMINE INSCRIPTION">EXAMINE\nINSCRIPTION</String>
+  <String id = "PRISON GUARD">PRISON GUARD</String>
+  <String id = "PLANE MOTOR">PLANE MOTOR</String>
+  <String id = "LOOSE STONE BLOCK">LOOSE\nSTONE BLOCK</String>
+  <String id = "WOODEN TOTEM">WOODEN\nTOTEM</String>
+  <String id = "KITCHEN BLENDER">KITCHEN\nBLENDER</String>
+  <String id = "KING LOUIS">KING\nLOUIS XVI</String>
+  <String id = "GLOBE HOLDER">GLOBE HOLDER</String>
+  <String id = "BALD MARQUISE">BALD\nMARQUISE</String>
+  <String id = "APPROACH CABINET">APPROACH\nCABINET</String>
+  <String id = "ENTER SECRET CHAMBER">ENTER SECRET\nCHAMBER</String>
+  <String id = "SMALL LOCK">SMALL LOCK</String>
+  <String id = "MISSING PORTRAIT">MISSING\nPORTRAIT</String>
+  <String id = "CANDLESTICK">CANDLESTICK</String>
+  <String id = "BOOKSHELF">BOOKSHELF</String>
+  <String id = "SHOP OWNER">SHOP OWNER</String>
+  <String id = "TANK MODEL">TANK MODEL</String>
+  <String id = "HI-FI">HI-FI</String>
+  <String id = "BOY">BOY</String>
+  <String id = "DOOR">DOOR</String>
+  <String id = "SARCOPHAGUS">SARCOPHAGUS</String>
+  <String id = "ENTER BASTILLE">ENTER\nBASTILLE</String>
+    <!-- tutorial -->
+  <String id = "PADLOCK">PADLOCK</String>
+  <String id = "OPEN BARREL">OPEN\nBARREL</String>
+  <String id = "CROW">CROW</String>
+  <String id = "GARDEN GNOME">GARDEN\nGNOME</String>
+  <String id = "ENTER CHAPEL">ENTER CHAPEL</String>
+  <String id = "BROKEN PLATE">BROKEN\nPLATE</String>
+</root>

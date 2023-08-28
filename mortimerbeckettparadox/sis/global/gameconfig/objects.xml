@@ -1,0 +1,701 @@
+<objects>
+  <full>
+    <!-- LEVEL1 -->
+    <object name="FLINT STONES">
+      <objectPic>IOB003</objectPic>
+      <divPic>o003</divPic>
+      <numParts>2</numParts>
+      <pieces>
+        <piece>p012-0</piece>
+        <piece>p013-0</piece>
+      </pieces>
+    </object>
+
+    <object name="OLD SHOE">
+      <objectPic>IOB000</objectPic>
+      <divPic>o000</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="GOLDEN SHIELD">
+      <objectPic>IOB001</objectPic>
+      <divPic>o001</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p004-1</piece>
+        <piece>p005-2</piece>
+        <piece>p006-1</piece>
+      </pieces>
+    </object>
+
+    <object name="TRAY">
+      <objectPic>IOB002</objectPic>
+      <divPic>o002</divPic>
+      <numParts>4</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="FIREWOOD1">
+      <objectPic>IOB004</objectPic>
+      <divPic>o004</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="LADDER">
+      <objectPic>IOB005</objectPic>
+      <divPic>o005</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="RUBY">
+      <objectPic>IOB006</objectPic>
+      <divPic>o006</divPic>
+      <numParts>4</numParts>
+      <pieces>
+        <piece>p024-1</piece>
+        <piece>p025-1</piece>
+        <piece>p026-0</piece>
+        <piece>p027-1</piece>
+      </pieces>
+    </object>
+
+    <object name="WING">
+      <objectPic>IOB007</objectPic>
+      <divPic>o007</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="PIGLETS">
+      <objectPic>IOB008</objectPic>
+      <divPic>o008</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p032-0</piece>
+        <piece>p033-1</piece>
+        <piece>p034-1</piece>
+      </pieces>
+    </object>
+
+    <object name="ROPE KNOT">
+      <objectPic>IOB009</objectPic>
+      <divPic>o009</divPic>
+      <numParts>2</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="PATCH">
+      <objectPic>IOB010</objectPic>
+      <divPic>o010</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p040-0</piece>
+        <piece>p041-1</piece>
+        <piece>p042-0</piece>
+      </pieces>
+    </object>
+
+    <object name="GOLDEN SWORD">
+      <objectPic>IOB011</objectPic>
+      <divPic>o011</divPic>
+      <numParts>4</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="FIREWOOD2">
+      <objectPic>IOB012</objectPic>
+      <divPic>o012</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p048-0</piece>
+        <piece>p049-0</piece>
+        <piece>p050-0</piece>
+      </pieces>
+    </object>
+
+    <object name="JUG">
+      <objectPic>IOB013</objectPic>
+      <divPic>o013</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="HAMMER">
+      <objectPic>IOB014</objectPic>
+      <divPic>o014</divPic>
+      <numParts>4</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="CAT STATUE HEAD">
+      <objectPic>IOB015</objectPic>
+      <divPic>o015</divPic>
+      <numParts>4</numParts>
+      <pieces>
+        <piece>p060-0</piece>
+        <piece>p061-0</piece>
+        <piece>p062-0</piece>
+        <piece>p063-0</piece>
+      </pieces>
+    </object>
+
+    <object name="EGGS">
+      <objectPic>IOB016</objectPic>
+      <divPic>o016</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p064-1</piece>
+        <piece>p065-1</piece>
+        <piece>p066-2</piece>
+      </pieces>
+    </object>
+
+    <object name="BEAD">
+      <objectPic>IOB017</objectPic>
+      <divPic>o017</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="CHAIN">
+      <objectPic>IOB018</objectPic>
+      <divPic>o018</divPic>
+      <numParts>2</numParts>
+      <pieces></pieces>
+    </object>
+
+    <object name="STONE CROWN">
+      <objectPic>IOB019</objectPic>
+      <divPic>o019</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+
+    <!-- LEVEL2 -->
+    
+    <object name="SHARP TOOL">
+      <objectPic>IOB025</objectPic>
+      <divPic>o025</divPic>
+      <numParts>2</numParts>
+      <pieces></pieces>
+    </object>
+      
+    <object name="WIG">
+      <objectPic>IOB026</objectPic>
+      <divPic>o026</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p104-0</piece>
+        <piece>p105-0</piece>
+        <piece>p106-1</piece>
+      </pieces>
+    </object>
+    
+    <object name="BOOK">
+      <objectPic>IOB027</objectPic>
+      <divPic>o027</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+     </object>  
+    
+    <object name="PORTRAIT">
+      <objectPic>IOB028</objectPic>
+      <divPic>o028</divPic>
+      <numParts>4</numParts>
+      <pieces>
+        <piece>p112-0</piece>
+        <piece>p113-0</piece>
+        <piece>p114-2</piece>
+        <piece>p115-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="APPLE">
+      <objectPic>IOB029</objectPic>
+      <divPic>o029</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="COIN">
+      <objectPic>IOB030</objectPic>
+      <divPic>o030</divPic>
+      <numParts>4</numParts>
+      <pieces>
+        <piece>p120-0</piece>
+        <piece>p121-0</piece>
+        <piece>p122-0</piece>
+        <piece>p123-2</piece>
+      </pieces>
+    </object>
+    
+    <object name="DOOR KNOCKER">
+      <objectPic>IOB031</objectPic>
+      <divPic>o031</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="BLENDER JUG">
+      <objectPic>IOB032</objectPic>
+      <divPic>o032</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="PLANE PROPELLER">
+      <objectPic>IOB033</objectPic>
+      <divPic>o033</divPic>
+      <numParts>2</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="CROWN">
+      <objectPic>IOB034</objectPic>
+      <divPic>o034</divPic>
+      <numParts>2</numParts>
+      <pieces>
+        <piece>p136-2</piece>
+        <piece>p137-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="MASK">
+      <objectPic>IOB035</objectPic>
+      <divPic>o035</divPic>
+      <numParts>4</numParts>
+      <pieces>
+        <piece>p140-0</piece>
+        <piece>p141-0</piece>
+        <piece>p142-0</piece>
+        <piece>p143-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="WOODEN EYE">
+      <objectPic>IOB036</objectPic>
+      <divPic>o036</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="UMBRELLA">
+      <objectPic>IOB037</objectPic>
+      <divPic>o037</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="GLOBE">
+      <objectPic>IOB038</objectPic>
+      <divPic>o038</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="CANDLE">
+      <objectPic>IOB039</objectPic>
+      <divPic>o039</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p156-2</piece>
+        <piece>p158-2</piece>
+        <piece>p157-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="KEY">
+      <objectPic>IOB040</objectPic>
+      <divPic>o040</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="PHARAOH MASK">
+      <objectPic>IOB041</objectPic>
+      <divPic>o041</divPic>
+      <numParts>4</numParts>
+      <pieces>
+        <piece>p164-2</piece>
+        <piece>p165-0</piece>
+        <piece>p166-0</piece>
+        <piece>p167-2</piece>
+      </pieces>
+    </object>
+    
+    <object name="TANK GUN">
+      <objectPic>IOB042</objectPic>
+      <divPic>o042</divPic>
+      <numParts>3</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="DISK">
+      <objectPic>IOB043</objectPic>
+      <divPic>o043</divPic>
+      <numParts>4</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <object name="LOUDSPEAKER">
+      <objectPic>IOB044</objectPic>
+      <divPic>o044</divPic>
+      <numParts>2</numParts>
+      <pieces></pieces>
+    </object>
+    
+    <!-- TUTORIAL -->
+    <object name="SHINY KNOB">
+      <objectPic>IOB020</objectPic>
+      <divPic>o020</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p080-0</piece>
+        <piece>p081-0</piece>
+        <piece>p082-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="BARREL LID">
+      <objectPic>IOB021</objectPic>
+      <divPic>o021</divPic>
+      <numParts>2</numParts>
+      <pieces>
+        <piece>p084-0</piece>
+        <piece>p085-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="RED HAT">
+      <objectPic>IOB022</objectPic>
+      <divPic>o022</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p088-0</piece>
+        <piece>p089-0</piece>
+        <piece>p090-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="PLATE FRAGMENT">
+      <objectPic>IOB023</objectPic>
+      <divPic>o023</divPic>
+      <numParts>2</numParts>
+      <pieces>
+        <piece>p092-0</piece>
+        <piece>p093-0</piece>
+      </pieces>
+    </object>
+    
+    <object name="KEY1">
+      <objectPic>IOB024</objectPic>
+      <divPic>o024</divPic>
+      <numParts>3</numParts>
+      <pieces>
+        <piece>p096-0</piece>
+        <piece>p097-0</piece>
+        <piece>p098-0</piece>
+      </pieces>
+    </object>
+    
+    <!-- Objects -->
+      <!-- LEVEL1 -->
+    <object name="SHIP" x="406.4" y="26.4">lo000</object>  <!-- done -->
+    <object name="WALL" x="317.6" y="134.4">lo001</object>   <!-- done -->
+    <object name="WALL1"x="317.6" y="134.4">lo002</object>    <!-- done -->
+    <object name="PIG"  x="137.6" y="286.4">lo003</object>    <!-- done -->
+    <object name="PIG1" x="164"   y="321.6">lo004</object>    <!-- done -->
+    <object name="NEST" x="441.6" y="252">lo005</object>    <!-- done -->
+    <object name="ANCHOR" x="22.4" y="125.6">lo008</object>   <!-- done -->
+    <object name="ANCHOR CHAIN" x="0" y="72">lo007</object>   <!-- done -->
+    <object name="TORN SAIL" x="419.2" y="25.6">lo010</object>    <!-- done -->
+    <object name="FROST GIANT" x="184.8" y="0">lo006</object>   <!-- done -->
+    <object name="FROST GIANT1" x="184.8" y="0">lo011</object>    <!-- done -->
+    <object name="FIRE PLACEM" x="300.8" y="243.2">lo012</object>    <!-- done -->
+    <object name="FIRE PLACE1" x="300.8" y="243.2">lo015</object>   <!-- done -->
+    <object name="FIRE PLACE2" x="300.8" y="243.2">lo017</object>   <!-- done -->
+    <object name="CAVE ENTRY" x="335.2" y="166.4">lo018</object>      <!-- done -->
+    <object name="STONE STATUE" x="119.2"  y="212">lo019</object>     <!-- done -->
+    <object name="STONE STATUE1" x="169.6"  y="265.6">lo020</object>  <!-- done -->
+    <object name="ANVIL" x="401.6"  y="298.4">lo021</object>        <!-- done -->
+    <object name="ANVIL1" x="458.4"  y="286.4">lo022</object>       <!-- done -->
+    <object name="RUBY SHIELD" x="82.4"  y="169.6">lo023</object>   <!-- done -->
+    <object name="RUBY SHIELD1" x="156.8"  y="247.2">lo024</object>   <!-- done -->
+    <object name="NECKLACE"  x="552.8"  y="220.8">lo025</object>    <!-- done -->
+    <object name="NECKLACE1"  x="590.4"  y="304.8">lo026</object>   <!-- done -->
+    <object name="CAT"  x="20.8"  y="288.8">lo027</object>    <!-- done -->
+    <object name="BIRD"  x="154.4"  y="41.6">lo028</object>   <!-- done -->
+    <object name="VIKING HELMENT"  x="162.4"  y="68">lo029</object>   <!-- done -->
+    <object name="VIKING HELMENT1"  x="223.2"  y="62.4">lo030</object>  <!-- done -->
+    <object name="TAVERN KEEPER"  x="474.4"  y="55.2">lo031</object>   <!-- done -->
+    <object name="PUBLIC PHONE"  x="433.6"  y="54.4">lo032</object>     <!-- done -->
+    <object name="CAT STATUE"  x="542.4"  y="244.8">lo033</object>    <!-- done -->
+    <object name="CAT STATUE1"  x="512"  y="225.6">lo034</object>   <!-- done -->
+    <object name="FREYA" x="209.8" y="22.4">lo014</object>    <!-- done -->
+    <object name="FREYA1"  x="209.6"  y="22.4">lo014</object>     <!-- done -->
+    <object name="FREYA BACK"  x="209.6"  y="22.4">lo014</object>     <!-- done -->
+    <object name="GSWORD"  x="354.4"  y="156.8">lo036</object>    <!-- done -->
+    <object name="GSHIELD"  x="264.8"  y="138.4">lo037</object>   <!-- done -->
+    <object name="ROPES"  x="0"  y="0">lo038</object>         <!-- done -->
+    <object name="ROPES1"  x="0"  y="58.4">lo039</object>     <!-- done -->
+    <object name="JUGS"  x="588.8"  y="65.6">lo040</object>   <!-- done -->
+    <object name="JUGS1"  x="580"  y="72.8">lo041</object>    <!-- done -->
+    <object name="FLAG"  x="300"  y="18.4">lo042</object>   <!-- done -->
+    <object name="EXIT1" x=  "350" y="150" scale="100">PORTAL</object> <!-- done -->
+      <!-- LEVEL2 -->
+    <object name="LADY"  x="158.4"  y="160">lo056</object>      <!-- done -->
+    <object name="LADY1"  x="127.2"  y="163.2">lo057</object>     <!-- done -->
+    <object name="INSCRIPTION"  x="584.8"  y="139.2">lo058</object>   <!-- done -->
+    <object name="GUARD"  x="244.8"  y="185.6">lo059</object>       <!-- done -->
+    <object name="GUARD1"  x="322.4"  y="181.6">lo060</object>        <!-- done -->
+    <object name="PLANE MOTOR"  x="440"  y="214.4">lo061</object>       <!-- done -->
+    <object name="PLANE MOTOR1"  x="471.2"  y="222.4">lo062</object>    <!-- done -->
+    <object name="STONE BLOCK"  x="247.2"  y="15.2">lo063</object>         <!-- done -->
+    <object name="WOODEN TOTEM"  x="39.2"  y="236.8">lo064</object>        <!-- done -->
+    <object name="WOODEN TOTEM1"  x="4.8"  y="180">lo065</object>          <!-- done -->
+    <object name="BLENDER"  x="572"  y="272.8">lo066</object>            <!-- done -->
+    <object name="BLENDER1"  x="560"  y="336.8">lo067</object>           <!-- done -->
+    <object name="KING"  x="30.4"  y="199.2">lo068</object>               <!-- done -->
+    <object name="GLOBE HOLDER"  x="501.6"  y="239.2">lo069</object>      <!-- done -->
+    <object name="GLOBE HOLDER1"  x="500.8"  y="231.2">lo070</object>     <!-- done -->
+    <object name="BALD MARQUISE"  x="516.8"  y="51.2">lo072</object>      <!-- done -->
+    <object name="FIGURINE CABINET"  x="265.6"  y="156">lo073</object>     <!-- done -->
+    <object name="FIGURINE CABINET1"  x="331.2"  y="156">lo074</object>    <!-- done -->
+    <object name="FIGURINE SHELF" x="0" y="0">lo043</object>              <!-- done --> 
+    <object name="SECRET ENTRANCE"  x="380"  y="190.4">lo075</object>     <!-- done --> 
+    <object name="KEYHOLE"  x="292.8"  y="19.2">lo077</object>            <!-- done --> 
+    <object name="MISSING PORTRAIT"  x="374.4"  y="207.2">lo078</object>
+    <object name="CANDLE STICK"  x="607.2"  y="58.4">lo079</object>     <!-- done --> 
+    <object name="CANDLE STICK1"  x="605.6"  y="99.2">lo080</object>    <!-- done --> 
+    <object name="BOOK SHELF"  x="24.8"  y="8">lo081</object>         <!-- done --> 
+    <object name="BOOK SHELF1"  x="0"  y="7.2">lo082</object>         <!-- done --> 
+    <object name="SHOP OWNER"  x="285.6"  y="73.6">lo083</object>     <!-- done -->
+    <object name="TANK"  x="457.6"  y="59.2">lo084</object>           <!-- done -->
+    <object name="TANK1"  x="475.2"  y="80.8">lo085</object>          <!-- done -->
+    <object name="HI-FI"  x="0"  y="187.2">lo086</object>             <!-- done -->
+    <object name="HI-FI1"  x="10.4"  y="184.8">lo087</object>         <!-- done -->
+    <object name="BOY"  x="129.6"  y="261.6">lo088</object>           <!-- done -->
+    <object name="BOY1"  x="39.2"  y="206.4">lo089</object>           <!-- done -->     
+    <object name="DOOR"  x="455.2"  y="118.4">lo091</object>          <!-- done --> 
+    <object name="SARCOPHAGUS"  x="578.4"  y="109.6">lo092</object>   <!-- done --> 
+    <object name="SARCOPHAGUS1"  x="572.8"  y="161.6">lo093</object>  <!-- done --> 
+    <object name="BASTILLE ENTARNCE"  x="336"  y="204.8">lo094</object>   <!-- done --> 
+    <object name="EXIT2" x="370" y="235" scale="100">PORTAL</object>
+      <!-- TUTORIAL -->
+    <object name="LOCK"  x="292.8"  y="14.4">lo044</object>
+    <object name="LOCK1"  x="307.2"  y="200.8">lo045</object>
+    <object name="BARREL"  x="92.8"  y="288.8">lo046</object>
+    <object name="BARREL1"  x="92.8"  y="288.8">lo047</object>
+    <object name="CROW"  x="95.2"  y="74.4">lo048</object>
+    <object name="CROW1"  x="9.6"  y="72.8">lo049</object>
+    <object name="GNOME"  x="434.4"  y="265.6">lo050</object>
+    <object name="GNOME1"  x="412.8"  y="296.8">lo051</object>
+    <object name="CHAPEL"  x="359.2"  y="152">lo052</object>
+    <object name="BROKEN PLATE"  x="515.2"  y="120.8">lo053</object>
+    <object name="BROKEN PLATE1"  x="513.6"  y="96">lo054</object>
+    <object name="EXIT0" x="380" y="200" scale="80">PORTAL</object>
+  </full>
+
+  <animations>
+    <anim x = "0" y="250" scale="200">CAT_RUN</anim>
+    <anim x = "185.5" y="0" scale="100">MELT</anim>
+    <anim x = "97.3" y="195" scale="100">FREYA_APPEAR</anim>
+    <anim x = "79.8"  y = "13.5" scale = "200">BIRD_FLY</anim>
+    <anim x = "266" y = "6" scale = "100">KEY_ROTATE</anim>
+  </animations>
+  
+  <minigames>
+    <minigame x="362" y="93">MGViking</minigame>
+    <minigame x="0" y="0">MGTelephone</minigame>
+    <minigame x="0" y="0">MGFrenchRevolution</minigame>
+    <minigame x="0" y="0">MGTutorial</minigame>
+  </minigames>
+  
+  <pieces>
+    <!--GOLDEN SHIELD-->
+    <piece id="4-0"  x="564"   y="141.6"/>
+    <piece id="4-1"  x="26.4"  y="296.8"/>
+    <piece id="4-2"  x="167.2" y="190.4"/>
+    <piece id="5-0"  x="65.6"  y="275.2"/>
+    <piece id="5-1"  x="116"   y="256"/>
+    <piece id="5-2"  x="267.2" y="4.8"/>
+    <piece id="6-0"  x="204"   y="165.6"/>
+    <piece id="6-1"  x="571.2" y="290.4"/>
+    <piece id="6-2"  x="284.8" y="155.2"/>
+    <!--FLINT STONES-->
+    <piece id="12-0" x="200"   y="118.4"/>
+    <piece id="12-1" x="261.6" y="305.6"/>
+    <piece id="12-2" x="425.6" y="305.6"/>
+    <piece id="13-0" x="456.8" y="186.4" hidden="true"/>
+    <piece id="13-1" x="456.8" y="186.4"/>
+    <piece id="13-2" x="456.8" y="186.4"/>
+    <!--RUBY-->
+    <piece id="24-0" x="604"   y="139.2"/>
+    <piece id="24-1" x="580.8" y="224.8"/>
+    <piece id="24-2" x="435.2" y="246.4"/>
+    <piece id="25-0" x="110.4" y="268"/>
+    <piece id="25-1" x="252.8" y="265.6"/>
+    <piece id="25-2" x="205.6" y="237.6"/>
+    <piece id="26-0" x="557.6" y="325.6"/>
+    <piece id="26-1" x="108.8" y="182.4"/>
+    <piece id="26-2" x="365.6" y="256"/>
+    <piece id="27-0" x="61.6"  y="335.2"/>
+    <piece id="27-1" x="290.4" y="305.6"/>
+    <piece id="27-2" x="14.4"  y="306.4"/>
+    <!--PIGLETS-->
+    <piece id="32-0" x="254.4" y="310.4"/>
+    <piece id="32-1" x="275.2" y="250.4"/>
+    <piece id="32-2" x="172"   y="295.2"/>
+    <piece id="33-0" x="545.6" y="257.6"/>
+    <piece id="33-1" x="102.4" y="327.2"/>
+    <piece id="33-2" x="110.4" y="128"/>
+    <piece id="34-0" x="123.2" y="84.8"/>
+    <piece id="34-1" x="44.8"  y="120"/>
+    <piece id="34-2" x="306.4" y="295.2"/>
+    <!--PATCH-->
+    <piece id="40-0" x="65.6"  y="232"/>
+    <piece id="40-1" x="613.6" y="168"/>
+    <piece id="40-2" x="175.2" y="199.2"/>
+    <piece id="41-0" x="18.4"  y="138.4"/>
+    <piece id="41-1" x="604"   y="316"/>
+    <piece id="41-2" x="323.2" y="172.8"/>
+    <piece id="42-0" x="305.6" y="120"/>
+    <piece id="42-1" x="43.2"  y="352.8"/>
+    <piece id="42-2" x="585.6" y="138.4"/>
+    <!--FIREWOOD2-->
+    <piece id="48-0" x="549.6" y="332"/>
+    <piece id="48-1" x="194.4" y="349.6"/>
+    <piece id="48-2" x="381.6" y="108"/>
+    <piece id="49-0" x="56"    y="292.8"/> <!-- hidden -->
+    <piece id="49-1" x="56"    y="292.8"/>
+    <piece id="49-2" x="56"    y="292.8"/>
+    <piece id="50-0" x="102.4" y="169.6"/>
+    <piece id="50-1" x="32.8"  y="12"/>
+    <piece id="50-2" x="1.6"   y="276"/>
+    <!--CAT STATUE HEAD-->
+    <piece id="60-0" x="584.8" y="148"/>
+    <piece id="60-1" x="462.4" y="184"/>
+    <piece id="60-2" x="464.8" y="38.4"/>
+    <piece id="61-0" x="519.2" y="176.8"/>
+    <piece id="61-1" x="408"   y="141.6"/>
+    <piece id="61-2" x="132"   y="167.2"/>
+    <piece id="62-0" x="181.6" y="63.2" hidden="true" />
+    <piece id="62-1" x="181.6" y="63.2"/>
+    <piece id="62-2" x="181.6" y="63.2"/>
+    <piece id="63-0" x="88"    y="235.2"/>
+    <piece id="63-1" x="129.6" y="324"/>
+    <piece id="63-2" x="389.6" y="173.6"/>
+    <!--EGGS-->
+    <piece id="64-0" x="449.6" y="340"/>
+    <piece id="64-1" x="79.2"  y="80"/>
+    <piece id="64-2" x="221.6" y="235.2"/>
+    <piece id="65-0" x="181.6" y="338.4"/>
+    <piece id="65-1" x="591.2" y="184"/>
+    <piece id="65-2" x="576.8" y="348.8"/>
+    <piece id="66-0" x="39.2"  y="305.6"/>
+    <piece id="66-1" x="108.8" y="18.4"/>
+    <piece id="66-2" x="493.6" y="291.2"/>
+
+    <!--SHINY KNOB-->
+    <piece id="80-0" x="125.6" y="200.8"/>
+    <piece id="81-0" x="588.8" y="275.2"/>
+    <piece id="82-0" x="8"     y="193.6"/>
+    <!--BARREL LID-->
+    <piece id="84-0" x="608"   y="144.8"/>
+    <piece id="85-0" x="76"    y="40"/>
+    <!--RED HAT-->
+    <piece id="88-0" x="198.4" y="304.8"/>
+    <piece id="89-0" x="20"    y="92"/>
+    <piece id="90-0" x="379.2" y="49.6"/>
+    <!--PLATE FRAGMENT-->
+    <piece id="92-0" x="33.6"  y="160"/>
+    <piece id="93-0" x="531.2" y="120.8"/>
+    <!--KEY1-->
+    <piece id="96-0" x="285.6" y="8.8"/>
+    <piece id="97-0" x="268.8" y="162.4"/>
+    <piece id="98-0" x="536"   y="193.6"/>
+
+    <!--WIG-->
+    <piece id="104-0" x="243.2"y="118.4"/>
+    <piece id="104-1" x="39.2" y="224.8"/>
+    <piece id="104-2" x="580"  y="252"/>
+    <piece id="105-0" x="50.4" y="219.2"/>
+    <piece id="105-1" x="292"  y="37.6"/>
+    <piece id="105-2" x="218.4"y="261.6"/>
+    <piece id="106-0" x="243.2"y="196"/>
+    <piece id="106-1" x="424.8"y="220.8"/>
+    <piece id="106-2" x="524.8"y="196.8"/>
+    <!--PORTRAIT-->
+    <piece id="112-0" x="262.4"y="24"/>
+    <piece id="112-1" x="262.4"y="24" hidden="true" />
+    <piece id="112-2" x="262.4"y="24"/>
+    <piece id="113-0" x="231.2"y="240.8"/>
+    <piece id="113-1" x="50.4" y="152"/>
+    <piece id="113-2" x="494.4"y="335.2"/>
+    <piece id="114-0" x="50.4" y="303.2"/>
+    <piece id="114-1" x="594.4"y="317.6"/>
+    <piece id="114-2" x="407.2"y="305.6"/>
+    <piece id="115-0" x="6.4"  y="122.4"/>
+    <piece id="115-1" x="560.8"y="2.4"/>
+    <piece id="115-2" x="273.6"y="160.8"/>
+    <!--COINS-->
+    <piece id="120-0" x="136"  y="286.4"/>
+    <piece id="120-1" x="136"  y="286.4" hidden="true" />
+    <piece id="120-2" x="136"  y="286.4"/>
+    <piece id="121-0" x="592"  y="325.6"/>
+    <piece id="121-1" x="450.4"y="107.2"/>
+    <piece id="121-2" x="174.4"y="341.6"/>
+    <piece id="122-0" x="336"  y="91.2"/>
+    <piece id="122-1" x="61.6" y="341.6"/>
+    <piece id="122-2" x="91.2" y="69.6"/>
+    <piece id="123-0" x="596"  y="172.8"/>
+    <piece id="123-1" x="137.6"y="224.8"/>
+    <piece id="123-2" x="144"  y="156"/>
+    <!--CROWN-->
+    <piece id="136-0" x="3.2"  y="165.6"/>
+    <piece id="136-1" x="0.8"  y="128.8"/>
+    <piece id="136-2" x="579.2"y="141.6"/>
+    <piece id="137-0" x="572.8"y="318.4"/>
+    <piece id="137-1" x="566.4"y="188.8"/>
+    <piece id="137-2" x="495.2"y="261.6"/>
+    <!--MASK-->
+    <piece id="140-0" x="408.8"y="280.8"/>
+    <piece id="140-1" x="408.8"y="280.8" hidden="true" />
+    <piece id="140-2" x="408.8"y="280.8"/>
+    <piece id="141-0" x="581.6"y="199.2"/>
+    <piece id="141-1" x="173.6"y="74.4"/>
+    <piece id="141-2" x="34.4" y="312.8"/>
+    <piece id="142-0" x="20.8" y="141.6"/>
+    <piece id="142-1" x="104.8"y="34.4"/>
+    <piece id="142-2" x="220.8"y="168"/>
+    <piece id="143-0" x="537.6"y="260.8"/>
+    <piece id="143-1" x="472"  y="296.8"/>
+    <piece id="143-2" x="508"  y="208"/>
+    <!--CANDLE-->
+    <piece id="156-0" x="70.4" y="139.2"/>
+    <piece id="156-1" x="70.4" y="318.4"/>
+    <piece id="156-2" x="140.8"y="0.8"/>
+    <piece id="157-0" x="611.2"y="149.6"/>
+    <piece id="157-1" x="133.6"y="269.6"/>
+    <piece id="157-2" x="410.4"y="85.6"/>
+    <piece id="158-0" x="272"  y="112.8"/>
+    <piece id="158-1" x="304.8"y="49.6"/>
+    <piece id="158-2" x="488"  y="261.6"/>
+    <!--PHARAOH MASK-->
+    <piece id="164-0" x="229.6"y="83.2"/>
+    <piece id="164-1" x="340"  y="320"/>
+    <piece id="164-2" x="245.6"y="291.2"/>
+    <piece id="165-0" x="33.6" y="214.4"/>
+    <piece id="165-1" x="348"  y="247.2"/>
+    <piece id="165-2" x="562.4"y="3.2"/>
+    <piece id="166-0" x="1.6"  y="37.6"/>
+    <piece id="166-1" x="284"  y="103.2"/>
+    <piece id="166-2" x="567.2"y="19.2"/>
+    <piece id="167-0" x="565.6"y="309.6"/>
+    <piece id="167-1" x="224"  y="316"/>
+    <piece id="167-2" x="265.6"y="138.4"/>
+  </pieces>
+</objects>

@@ -1,0 +1,521 @@
+<level id = "0" name = "Tutorial" hintSpeed="1.1">
+  <rooms>
+    <room id="0" name="Manor"    type="main" main="0" bitmap="LBG04" puzzleCount="1" placeCount="1" pieceCount="7">
+      <stage>
+        <object name="EXIT0"
+          type="exit"
+          hint="ENTER PORTAL"
+          initvisible="false"
+        />
+        <object name="BARREL"
+          type="back"
+          initvisible="true"
+        />
+        <object name="BARREL1"    map="M0"  sound="5"
+          type="work"
+          hint="OPEN BARREL"
+          initvisible="true"   onClick="disappear" param="BARREL" trigger="BARREL LID"
+        />
+        <object name="LOCK"
+          type="back"
+          initvisible="true"
+        />
+        <object name="LOCK1"    map="P0"  sound="5"
+          type="work"
+          hint="PADLOCK"
+          initvisible="true"   onClick="disappear" param="LOCK" trigger="KEY1" showObject="EXIT0" 
+        />
+        <object name="BARREL LID"    map="H0"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="BARREL LID"    map="H0"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="SHINY KNOB"    map="H0"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="SHINY KNOB"    map="H0"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="SHINY KNOB"    map="H0"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+        <object name="PLATE FRAGMENT"    map="H0"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="PLATE FRAGMENT"    map="H0"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="BARREL LID"/>
+        <object name="SHINY KNOB"/>
+        <object name="PLATE FRAGMENT"/>
+      </panel>
+    </room>
+    <room id="1" name="Chapel"     type="main" main="1" bitmap="LBG05" puzzleCount="1" placeCount="2" pieceCount="4">
+      <stage>  
+        <object name="CHAPEL"
+          type="goto"
+          hint="ENTER CHAPEL"
+          initvisible="true"   onClick="goto"       param="2"   trigger="" showObject=""
+        />
+        <object name="BROKEN PLATE"
+          type="back"
+          initvisible="true"
+        />
+        <object name="BROKEN PLATE1"    map="M1"  sound="5"
+          type="work"
+          hint="BROKEN PLATE"
+          initvisible="true"   onClick="disappear" param="BROKEN PLATE" trigger="PLATE FRAGMENT"
+        />
+        <object name="GNOME"
+          type="back"
+          initvisible="true"
+        />
+        <object name="GNOME1"    map="M1"  sound="5"
+          type="work"
+          hint="GARDEN GNOME"
+          initvisible="true"   onClick="disappear" param="GNOME" trigger="RED HAT"
+        />
+        <object name="CROW"
+          type="back"
+          initvisible="true"
+        />
+        <object name="CROW1"    map="P1"  sound="5"
+          type="work"
+          hint="CROW"
+          initvisible="true"   onClick="showBook" param="20&noteBook_0_0" trigger="SHINY KNOB" hideObject="CROW"
+        />
+        <object name="RED HAT"    map="H1"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="RED HAT"    map="H1"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+        <object name="KEY1"    map="H1"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="KEY1"    map="H1"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="RED HAT"/>
+        <object name="KEY1"/>
+      </panel>
+    </room>
+    <room id="2" name="Chapel Inside"      type="sub"  main="1" bitmap="LBG05-1" puzzleCount="1" placeCount="0" pieceCount="2">
+      <stage>  
+        <object name="MGTutorial" 
+          type="minigame"
+          initvisible="true"     onComplete="show_objects(KEY1#2)&P(1)" 
+        />
+        <object name="RED HAT"    map="H1"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="KEY1"    map="H1"
+          type="hidden"
+          part="2"         initvisible="false" 
+        />
+      </stage>
+      <panel>
+        <object name="RED HAT"/>
+        <object name="KEY1"/>
+      </panel>
+    </room>
+  </rooms>
+  <inventuries>
+    <inventurie name="SHINY KNOB"     type="puzzle" toFind="1-2-3" />
+    <inventurie name="BARREL LID"     type="miss"   toFind="1-2" />
+    <inventurie name="PLATE FRAGMENT" type="miss"   toFind="1-2" />
+    <inventurie name="RED HAT"        type="miss"   toFind="1-2-3" />
+    <inventurie name="KEY1"           type="puzzle" toFind="1-2-3" />
+  </inventuries>
+  <startRoom>0</startRoom>
+  <endRoom>0</endRoom>
+  <tutorial present="true">
+    <item index="0">
+      <popUp>0</popUp>
+      <arrows>
+        <arrow x="170" y="420" type="3" />
+        <arrow x="240" y="420" type="3" />
+        <arrow x="310" y="420" type="3" />
+      </arrows>
+      <enableButtons></enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>show_field(0)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>1</next>
+    </item>
+    <item index="1">
+      <popUp>1</popUp>
+      <arrows>
+        <arrow x="100" y="110" type="0" />
+      </arrows>
+      <enableButtons>  
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>BARREL LID#2</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>close_popUp(0)</openTrigger>
+      <closeTrigger>find_piece(BARREL LID#2)</closeTrigger>
+      <next>2</next>
+    </item>
+    <item index="2">
+      <popUp>2</popUp>
+      <arrows>
+        <arrow x="620" y="210" type="2" />
+      </arrows>
+      <enableButtons>  
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>BARREL LID#1</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>stop_fly(BARREL LID#2)</openTrigger>
+      <closeTrigger>find_piece(BARREL LID#1)</closeTrigger>
+      <next>3</next>
+    </item>
+    <item index="3">
+      <popUp>3</popUp>
+      <arrows>
+        <arrow x="275" y="500" type="3" />
+      </arrows>
+      <enableButtons></enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>collect(BARREL LID)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>4</next>
+    </item>
+    <item index="4">
+      <popUp>4</popUp>
+      <arrows>
+        <arrow x="240" y="420" type="3" />
+        <arrow x="310" y="420" type="3" />
+        <arrow x="550" y="435" type="2" />
+      </arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>SHINY KNOB#1</object>
+        <object>SHINY KNOB#2</object>
+        <object>SHINY KNOB#3</object>
+        <object>PLATE FRAGMENT#1</object>
+        <object>PLATE FRAGMENT#2</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>true</enableHint>
+      <openTrigger>close_popUp(3)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>5</next>
+    </item>
+    <item index="5">
+      <popUp>5</popUp>
+      <arrows>
+        <arrow x="35" y="500" type="3" />
+        <arrow x="280" y="500" type="3" />
+      </arrows>
+      <enableButtons></enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>collect(all)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>6</next>
+    </item>
+    <item index="6">
+      <popUp>6</popUp>
+      <arrows>
+        <arrow x="250" y="500" type="2" />
+      </arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel>
+        <item>BARREL LID</item>
+      </enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>close_popUp(5)</openTrigger>
+      <closeTrigger>drag_start(BARREL LID)</closeTrigger>
+      <next>7</next>
+    </item>
+    <item index="7">
+      <popUp>7</popUp>
+      <arrows></arrows>
+      <enableButtons></enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>close_popUp(6)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>8</next>
+    </item>
+    <item index="8">
+      <popUp>17</popUp>
+      <arrows>
+        <arrow x="120" y="395" type="3" />
+      </arrows>
+      <enableButtons></enableButtons>
+      <enableOjects>
+        <object>BARREL1</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>close_popUp(7)</openTrigger>
+      <closeTrigger>work_click(BARREL1)</closeTrigger>
+      <next>9</next>
+    </item>
+    <item index="9" gotoMap="true">
+      <popUp>12</popUp>
+      <arrows>
+        <arrow x="60" y="440" type="3" />
+      </arrows>
+      <enableButtons>
+        <button>map</button>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>stop_animation(BARREL1)</openTrigger>
+      <closeTrigger>go_to_map(0)</closeTrigger>
+      <next>10</next>
+    </item>
+    <item index="10">
+      <popUp>13</popUp>
+      <arrows>
+        <arrow x="520" y="85" type="1" />
+      </arrows>
+      <enableButtons></enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>go_to_map(0)</openTrigger>
+      <closeTrigger>return_to_game(Chapel)</closeTrigger>
+      <next>11</next>
+    </item>
+    <item index="11">
+      <popUp>8</popUp>
+      <arrows>
+        <arrow x="583" y="196" type="1" />
+        <arrow x="340" y="510" type="2" />
+      </arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>BROKEN PLATE1</object>
+      </enableOjects>
+      <enablePanel>
+        <item>PLATE FRAGMENT</item>
+      </enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>show_field(1)</openTrigger>
+      <closeTrigger>remove_obj(BROKEN PLATE1)</closeTrigger>
+      <next>12</next>
+    </item>
+    <item index="12">
+      <popUp>9</popUp>
+      <arrows></arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>RED HAT#1</object>
+        <object>RED HAT#3</object>
+        <object>KEY1#1</object>
+        <object>KEY1#3</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>true</enableHint>
+      <openTrigger>stop_animation(BROKEN PLATE1)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>13</next>
+    </item>
+    <item index="13">
+      <popUp>10</popUp>
+      <arrows></arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>CHAPEL</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>stop_fly(all)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>14</next>
+    </item>
+    <item index="14">
+      <popUp>11</popUp>
+      <arrows>
+        <arrow x="40" y="165" type="0" />
+      </arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>RED HAT#2</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>true</enableHint>
+      <openTrigger>show_field(2)</openTrigger>
+      <closeTrigger>find_piece(RED HAT#2)</closeTrigger>
+      <next>15</next>
+    </item>
+    <item index="15">
+      <popUp>14</popUp>
+      <arrows>
+        <arrow x="15" y="455" type="3" />
+      </arrows>
+      <enableButtons>
+        <button>back</button>
+      </enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>collect(RED HAT)</openTrigger>
+      <closeTrigger>room_back(1)</closeTrigger>
+      <next>16</next>
+    </item>
+    <item index="16">
+      <popUp>15</popUp>
+      <arrows>
+        <arrow x="70" y="180" type="0" />
+        <arrow x="35" y="510" type="3" />
+      </arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>CROW1</object>
+      </enableOjects>
+      <enablePanel>
+        <item>SHINY KNOB</item>
+      </enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>show_field(1)</openTrigger>
+      <closeTrigger>work_click(CROW1)</closeTrigger>
+      <next>17</next>
+    </item>
+    <item index="17">
+      <popUp>20</popUp>
+      <arrows></arrows>
+      <enableButtons></enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>close_book(0)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>18</next>
+    </item>
+    <item index="18">
+      <popUp>21</popUp>
+      <arrows></arrows>
+      <enableButtons>
+        <button>book</button>
+      </enableButtons>
+      <enableOjects>
+        <object>CHAPEL</object>
+        <object>KEY1#2</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>close_book(0)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>19</next>
+    </item>
+    <item index="19">
+      <popUp>22</popUp>
+      <arrows></arrows>
+      <enableButtons></enableButtons>
+      <enableOjects>
+        <object>KEY1#2</object>
+      </enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>show_object(KEY1#2)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>20</next>
+    </item>
+    <item index="20">
+      <popUp>23</popUp>
+      <arrows>
+        <arrow x="480" y="350" type="3" />
+        <arrow x="350" y="505" type="2" />
+      </arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>GNOME1</object>
+      </enableOjects>
+      <enablePanel>
+        <item>RED HAT</item>
+      </enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>show_field(1)</openTrigger>
+      <closeTrigger>work_click(GNOME1)</closeTrigger>
+      <next>21</next>
+    </item>
+    <item index="21" gotoMap="true">
+      <popUp>24</popUp>
+      <arrows>
+        <arrow x="60" y="440" type="3" />
+      </arrows>
+      <enableButtons>
+        <button>map</button>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects></enableOjects>
+      <enablePanel></enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>stop_animation(GNOME1)</openTrigger>
+      <closeTrigger>go_to_map(1)</closeTrigger>
+      <next>22</next>
+    </item>
+    <item index="22">
+      <popUp>25</popUp>
+      <arrows></arrows>
+      <enableButtons>
+        <button>menu</button>
+      </enableButtons>
+      <enableOjects>
+        <object>LOCK1</object>
+        <object>EXIT0</object>
+      </enableOjects>
+      <enablePanel>
+        <item>KEY1</item>
+      </enablePanel>
+      <enableHint>false</enableHint>
+      <openTrigger>show_field(0)</openTrigger>
+      <closeTrigger>close</closeTrigger>
+      <next>-1</next>
+    </item>
+  </tutorial>
+</level>

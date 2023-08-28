@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<audio>
+  <!-- sfx -->
+  <music id="1"    group="sfx"    maxVolume="100"/>
+  <music id="2"    group="sfx"    maxVolume="100"/>
+  <music id="3"    group="sfx"    maxVolume="100"/>
+  <music id="5"    group="sfx"    maxVolume="100"/>
+  <music id="6"    group="sfx"    maxVolume="100"/>
+  <music id="8"    group="sfx"    maxVolume="100"/>
+  <music id="9"    group="sfx"    maxVolume="100"/>
+  <music id="9"    group="sfx"    maxVolume="100"/>
+  <music id="10"   group="sfx"    maxVolume="100"/>
+  <music id="11"   group="sfx"    maxVolume="100"/>
+  <music id="12"   group="sfx"    maxVolume="100"/>
+  <music id="13"   group="sfx"    maxVolume="100"/>
+  <music id="14"   group="sfx"    maxVolume="100"/>
+  <music id="15"   group="sfx"    maxVolume="100"/>
+  <music id="17"   group="sfx"    maxVolume="100"/>
+  <music id="18"   group="sfx"    maxVolume="100"/>
+  <music id="19"   group="sfx"    maxVolume="100"/>
+  <music id="20"   group="sfx"    maxVolume="100"/>
+  <music id="21"   group="sfx"    maxVolume="100"/>
+  <music id="22"   group="sfx"    maxVolume="100"/>
+  <music id="24"   group="sfx"    maxVolume="100"/>
+  <music id="25"   group="sfx"    maxVolume="100"/>
+  <music id="26"   group="sfx"    maxVolume="100"/>
+  <music id="50"   group="sfx"    maxVolume="100"/>
+  <music id="55"   group="sfx"    maxVolume="100"/>
+  <music id="59"   group="sfx"    maxVolume="100"/>
+  <music id="71"   group="sfx"    maxVolume="100"/>
+  
+  <!-- telephone -->
+  <music id="80"   group="sfx"    maxVolume="100"/>
+  <music id="81"   group="sfx"    maxVolume="100"/>
+  <music id="82"   group="sfx"    maxVolume="100"/>
+  <music id="83"   group="sfx"    maxVolume="100"/>
+  <music id="84"   group="sfx"    maxVolume="100"/>
+  <music id="85"   group="sfx"    maxVolume="100"/>
+  <music id="86"   group="sfx"    maxVolume="100"/>
+  <music id="87"   group="sfx"    maxVolume="100"/>
+
+  <!-- music -->
+  <music id="mTutorial"      group="music"  maxVolume="30"/>
+  <music id="mMenu"          group="music"  maxVolume="30"/>
+  <music id="mViking1"       group="music"  maxVolume="30"/>
+  <music id="mFR1"           group="music"  maxVolume="30"/>
+</audio>

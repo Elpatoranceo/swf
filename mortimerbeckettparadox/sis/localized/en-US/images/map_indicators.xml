@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<root>
+    <indicator id="Manor" x="160" y="290" />
+    <indicator id="Chapel" x="435" y="245" />
+  
+    <indicator id="Village" x="152" y="285" />
+    <indicator id="FrostGiant" x="312" y="177" />
+    <indicator id="Tavern" x="360" y="294" />
+    <indicator id="Temple" x="498" y="232" />
+    
+    <indicator id="Bastille" x="485" y="210" />
+    <indicator id="Shop" x="400" y="330" />
+    <indicator id="Street" x="214" y="345" />
+    <indicator id="Chateau" x="250" y="220" />
+</root>

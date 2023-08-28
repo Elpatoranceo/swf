@@ -1,0 +1,387 @@
+<level id = "2" name = "FrenchRevolution" hintSpeed="0.3">
+  <rooms>
+    <room id="0" name="Bastille"             type="main" main="0" bitmap="LBG06"   puzzleCount="2" placeCount="2" pieceCount="3">
+      <stage> 
+        <object name="BASTILLE ENTARNCE"
+          type="goto"
+          hint="ENTER BASTILLE"
+          initvisible="false"   onClick="goto"       param="1"   trigger="" showObject=""
+        />
+        <object name="PLANE MOTOR"
+          type="back"
+          initvisible="true"
+        />
+        <object name="PLANE MOTOR1"    map="M0"  sound="5"
+          type="work"
+          hint="PLANE MOTOR"
+          initvisible="true"   onClick="disappear" param="PLANE MOTOR" trigger="PLANE PROPELLER" showObject="" 
+        />
+        <object name="GUARD" 
+          type="back"
+          initvisible="true"
+        />
+        <object name="GUARD1" map="P0"
+          type="speak"
+          hint="PRISON GUARD"
+          initvisible="true"   onClick="showPopUp"  param="_popUp50" trigger="COIN"
+          showObject="BASTILLE ENTARNCE" hideObject="GUARD" popUp="49"
+        />
+        <object name="LADY"
+          type="back"
+          initvisible="true"
+        />
+        <object name="LADY1"    map="M0"  sound="5"
+          type="work"
+          hint="LADY IN GREEN"
+          initvisible="true"   onClick="disappear" param="LADY" trigger="UMBRELLA" showObject="" 
+        />
+        <object name="INSCRIPTION"   map="P0"
+          type="exam"
+          hint="EXAMINE INSCRIPTION"
+          initvisible="true"   onClick="showBook" param="35&noteBook_2_0" trigger="DISK" showObject="" popUp="31"  
+        />
+  
+        <object name="WIG"    map="H0"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+        <object name="PORTRAIT"    map="H0"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="PORTRAIT"    map="H0"
+          type="hidden"
+          part="4"         initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="SHARP TOOL"/>
+        <object name="WIG"/>
+        <object name="BOOK"/>
+        <object name="PORTRAIT"/>
+        <object name="APPLE"/>
+      </panel>
+    </room>
+    <room id="1" name="Bastille Below"       type="sub"  main="0" bitmap="LBG06-1" puzzleCount="1" placeCount="2" pieceCount="2">
+      <stage> 
+        <object name="STONE BLOCK"    map="P1"  sound="26"
+          type="work"
+          hint="LOOSE STONE BLOCK"
+          initvisible="true"   onClick="disappear" param="this" trigger="SHARP TOOL" showObject="PORTRAIT#1" 
+        />
+        <object name="EXIT2"
+          type="exit"
+          hint="ENTER PORTAL"
+          initvisible="true" popUp="27"
+        />
+        <object name="WOODEN TOTEM"
+          type="back"
+          initvisible="true"
+        />
+        <object name="WOODEN TOTEM1"    map="M1"  sound="5"
+          type="work"
+          hint="WOODEN TOTEM"
+          initvisible="true"   onClick="disappear" param="WOODEN TOTEM" trigger="WOODEN EYE" showObject="" 
+        />
+        <object name="BLENDER"  depth="-1"
+          type="back"
+          initvisible="true"
+        />
+        <object name="BLENDER1"    map="M1"  sound="5"  depth="-1"
+          type="work"
+          hint="KITCHEN BLENDER"
+          initvisible="true"   onClick="disappear" param="BLENDER" trigger="BLENDER JUG" showObject="" 
+        />
+        <object name="PORTRAIT"    map="H0"
+          type="hidden"
+          part="1"         initvisible="false" 
+        />
+        <object name="PORTRAIT"    map="H0"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="SHARP TOOL"/>
+        <object name="WIG"/>
+        <object name="BOOK"/>
+        <object name="PORTRAIT"/>
+        <object name="APPLE"/>
+      </panel>
+    </room>
+    <room id="2" name="Shop"                 type="main" main="1" bitmap="LBG08"   puzzleCount="1" placeCount="2" pieceCount="7">
+      <stage>
+        <object name="TANK"
+          type="back"
+          initvisible="true"
+        />
+        <object name="TANK1"    map="M1"  sound="5"
+          type="work"
+          hint="TANK MODEL"
+          initvisible="true"   onClick="disappear" param="TANK" trigger="TANK GUN" showObject="" 
+        />
+        <object name="HI-FI"
+          type="back"
+          initvisible="true"
+        />
+        <object name="HI-FI1"    map="M1"  sound="5"
+          type="work"
+          hint="HI-FI"
+          initvisible="true"   onClick="disappear" param="HI-FI" trigger="LOUDSPEAKER" showObject="" 
+        />
+        
+        <object name="SHOP OWNER" map="P1"
+          type="speak"
+          hint="SHOP OWNER"
+          initvisible="true"   onClick="showPopUp"  param="_popUp46" trigger="CROWN" showObject="*MASK#1"  popUp="45"
+        />
+        
+        <object name="MASK"    map="H1"
+          type="hidden"
+          part="1"         initvisible="false" 
+        />
+        <object name="MASK"    map="H1"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="MASK"    map="H1"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+        <object name="MASK"    map="H1"
+          type="hidden"
+          part="4"         initvisible="true" 
+        />
+        <object name="CANDLE"    map="H1"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="CANDLE"    map="H1"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="CANDLE"    map="H1"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="MASK"/>
+        <object name="WOODEN EYE"/>
+        <object name="UMBRELLA"/>
+        <object name="GLOBE"/>
+        <object name="CANDLE"/>
+      </panel>
+    </room>
+    <room id="3" name="Street"               type="main" main="2" bitmap="LBG09"   puzzleCount="0" placeCount="3" pieceCount="4">
+      <stage>
+        <object name="DOOR"    map="M2"  sound="5"
+          type="work"
+          hint="DOOR"
+          initvisible="true"   onClick="disappear" param="this" trigger="DOOR KNOCKER" showObject="" 
+        />
+        <object name="BOY"  depth = "-1"
+          type="back"
+          initvisible="true"
+        />
+        <object name="BOY1"    map="M2"  sound="5"  depth = "-1"
+          type="work"
+          hint="BOY"
+          initvisible="true"   onClick="disappear" param="BOY" trigger="APPLE" showObject="" 
+        />
+        <object name="SARCOPHAGUS"
+          type="back"
+          initvisible="true"
+        />
+        <object name="SARCOPHAGUS1"    map="M2"  sound="5"
+          type="work"
+          hint="SARCOPHAGUS"
+          initvisible="true"   onClick="disappear" param="SARCOPHAGUS" trigger="PHARAOH MASK" showObject="" 
+        />
+        
+        <object name="PHARAOH MASK"    map="H2"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="PHARAOH MASK"    map="H2"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="PHARAOH MASK"    map="H2"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+        <object name="PHARAOH MASK"    map="H2"
+          type="hidden"
+          part="4"         initvisible="true" 
+        />  
+      </stage>
+      <panel>
+        <object name="KEY"/>
+        <object name="PHARAOH MASK"/>
+        <object name="TANK GUN"/>
+        <object name="DISK"/>
+        <object name="LOUDSPEAKER"/>
+      </panel>
+    </room>
+    <room id="4" name="Chateau"              type="main" main="3" bitmap="LBG07"   puzzleCount="1" placeCount="2" pieceCount="4">
+      <stage>
+        <object name="FIGURINE CABINET"
+          type="back"
+          initvisible="true"
+        />
+        <object name="FIGURINE CABINET1"
+          type="goto"
+          hint="APPROACH CABINET"
+          initvisible="true"   onClick="goto"       param="5"   trigger="" showObject=""
+        />
+        <object name="SECRET ENTRANCE"
+          type="goto"
+          hint="ENTER SECRET CHAMBER"
+          initvisible="false"   onClick="goto"       param="6"   trigger="" showObject=""
+        />
+        <object name="BALD MARQUISE"    map="M3"  sound="5"
+          type="work"
+          hint="BALD MARQUISE"
+          initvisible="true"   onClick="disappear" param="this" trigger="WIG" showObject="" 
+        />
+        <object name="GLOBE HOLDER"  depth="-1"
+          type="back"
+          initvisible="true"
+        />
+        <object name="GLOBE HOLDER1"    map="M3"  sound="5"  depth="-1"
+          type="work"
+          hint="GLOBE HOLDER"
+          initvisible="true"   onClick="disappear" param="GLOBE HOLDER" trigger="GLOBE" showObject="" 
+        />
+        <object name="KING" map="P3"  depth="-1"
+          type="speak"
+          hint="KING LOUIS"
+          initvisible="true"   onClick="showPopUp"  param="_popUp48" trigger="MASK" showObject="*COIN#1"  popUp="47"
+        />
+        
+        <object name="COIN"    map="H3"
+          type="hidden"
+          part="1"         initvisible="false" 
+        />
+        <object name="COIN"    map="H3"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+        <object name="COIN"    map="H3"
+          type="hidden"
+          part="3"         initvisible="true" 
+        />
+        <object name="COIN"    map="H3"
+          type="hidden"
+          part="4"         initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="COIN"/>
+        <object name="DOOR KNOCKER"/>
+        <object name="BLENDER JUG"/>
+        <object name="PLANE PROPELLER"/>
+        <object name="CROWN"/>
+      </panel>
+    </room>
+    <room id="5" name="Shelf"                type="sub"  main="3" bitmap="LBG07-1" puzzleCount="2" placeCount="0" pieceCount="0">
+      <stage>
+        <object name="FIGURINE SHELF"  depth="-1"
+          type="back"
+          initvisible="true"
+        />
+        <object name="KEYHOLE" map="P4"  sound="24&25"  depth="-1"
+          type="work"
+          hint="SMALL LOCK"
+          initvisible="false" onClick="disappear" param="this" trigger="KEY" showObject="KEY_ROTATE"
+        />
+        
+        <object name="MGFrenchRevolution"  
+          type="minigame"
+          initvisible="true"     onComplete="show_objects(KEYHOLE#-1)&P(4)" 
+        />
+        <object name="KEY_ROTATE"  depth="-1"
+          type="anim"
+          initvisibel="false" popUp="-1" param="slide&4" showObject="SECRET ENTRANCE#-1" hideObject="FIGURINE CABINET1&FIGURINE CABINET"
+        /> 
+      </stage>
+      <panel>
+        <object name="COIN"/>
+        <object name="DOOR KNOCKER"/>
+        <object name="BLENDER JUG"/>
+        <object name="PLANE PROPELLER"/>
+        <object name="CROWN"/>
+      </panel>
+    </room>
+    <room id="6" name="Chamber"              type="sub"  main="3" bitmap="LBG07-2" puzzleCount="1" placeCount="2" pieceCount="2">
+      <stage>
+        <object name="MISSING PORTRAIT"    map="P6"  sound="5"
+          type="work"
+          hint="MISSING PORTRAIT"
+          initvisible="true"   onClick="disappear" param="this" trigger="PORTRAIT" showObject="" 
+        />
+        <object name="CANDLE STICK"
+          type="back"
+          initvisible="true"
+        />
+        <object name="CANDLE STICK1"    map="M6"  sound="5"
+          type="work"
+          hint="CANDLESTICK"
+          initvisible="true"   onClick="disappear" param="CANDLE STICK" trigger="CANDLE" showObject="" 
+        /> 
+        <object name="BOOK SHELF"
+          type="back"
+          initvisible="true"
+        />
+        <object name="BOOK SHELF1"    map="M6"  sound="5"
+          type="work"
+          hint="BOOKSHELF"
+          initvisible="true"   onClick="disappear" param="BOOK SHELF" trigger="BOOK" showObject="" 
+        />
+        
+        <object name="CROWN"    map="H3"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="CROWN"    map="H3"
+          type="hidden"
+          part="2"         initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="COIN"/>
+        <object name="DOOR KNOCKER"/>
+        <object name="BLENDER JUG"/>
+        <object name="PLANE PROPELLER"/>
+        <object name="CROWN"/>
+      </panel>
+    </room>
+  </rooms>
+  <inventuries>
+    <inventurie name="SHARP TOOL"       type="puzzle" toFind="0" />
+    <inventurie name="WIG"              type="miss"   toFind="3" />
+    <inventurie name="BOOK"             type="miss"   toFind="0" />
+    <inventurie name="PORTRAIT"         type="puzzle" toFind="1-2-3-4" />
+    <inventurie name="APPLE"            type="miss"   toFind="0" />
+    <inventurie name="COIN"             type="puzzle" toFind="1-2-3-4" />
+    <inventurie name="DOOR KNOCKER"     type="miss"   toFind="0" />
+    <inventurie name="BLENDER JUG"      type="miss"   toFind="0" />
+    <inventurie name="PLANE PROPELLER"  type="miss"   toFind="0" />
+    <inventurie name="CROWN"            type="puzzle" toFind="1-2" />
+    <inventurie name="MASK"             type="puzzle" toFind="1-2-3-4" />
+    <inventurie name="WOODEN EYE"       type="miss"   toFind="0" />
+    <inventurie name="UMBRELLA"         type="miss"   toFind="0" />
+    <inventurie name="GLOBE"            type="miss"   toFind="0" />
+    <inventurie name="CANDLE"           type="miss"   toFind="1-2-3" />
+    <inventurie name="KEY"              type="puzzle" toFind="0" />
+    <inventurie name="PHARAOH MASK"     type="miss"   toFind="1-2-3-4" />
+    <inventurie name="TANK GUN"         type="miss"   toFind="0" />
+    <inventurie name="DISK"             type="puzzle" toFind="0" />
+    <inventurie name="LOUDSPEAKER"      type="miss"   toFind="0" />
+  </inventuries>
+  <startRoom>0</startRoom>
+  <endRoom>1</endRoom>
+  <tutorial present="false">
+  </tutorial>
+</level>

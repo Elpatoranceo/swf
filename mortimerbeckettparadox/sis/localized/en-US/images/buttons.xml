@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <button id="Village" states="1" />
+  <button id="FrostGiant" states="1" />
+  <button id="Tavern" states="1" />
+  <button id="Temple" states="1" />
+  
+  <button id="Bastille" states="1" />
+  <button id="Shop" states="1" />
+  <button id="Street" states="1" />
+  <button id="Chateau" states="1" />
+  
+  <button id="Manor" states="1" />
+  <button id="Chapel" states="1" />
+</root>

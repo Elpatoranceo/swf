@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <String id="language">en</String>
+  <String id="country">US</String>
+  <String id="numTrialLevels">3</String>
+  <String id="comInterval">900</String>
+  <String id="numAdLevels">1</String>
+  <String id="showAds">true</String>
+  <String id="hasDownloadable">true</String>
+  <String id="downloadableURL">http://downloadcdn.shockwave.com/pub/mortimerbeckettparadox/InstallMortimerBeckettTimeParadox.exe</String>
+  <String id="cheatsEnabled">false</String>
+  <String id="isMSN">false</String>
+</root>

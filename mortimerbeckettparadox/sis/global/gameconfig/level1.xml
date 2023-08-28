@@ -1,0 +1,414 @@
+<level id = "1" name = "Vicing" hintSpeed="0.35">
+  <rooms>
+    <room id="0" name="Village"    type="main" main="0" bitmap="LBG00" puzzleCount="2" placeCount="2" pieceCount="3">
+      <stage>
+        <object name="SHIP"
+          type="goto"
+          hint="GO TO THE SHIP"
+          initvisible="true"   onClick="goto"       param="1"   trigger="" showObject=""
+        />
+        <object name="WALL1"
+          type="back"
+          initvisible="true"
+        />
+        <object name="WALL"   map="P0"  sound="5"
+          type="work"
+          hint="WALL"
+          initvisible="true"   onClick="disappear"  param="WALL1" trigger="LADDER" showObject="" 
+        />
+        <object name="PIG1"
+          type="back"
+          initvisible="true"
+        />
+        <object name="PIG"    map="M0"  sound="5"
+          type="work"
+          hint="PIG"
+          initvisible="true"   onClick="disappear" param="PIG1" trigger="PIGLETS" showObject="" 
+        />
+        <object name="NEST"   map="M0"  sound="5"
+          type="work"
+          hint="NEST"
+          initvisible="true"   onClick="disappear" param="this" trigger="EGGS" showObject="" 
+        />
+        <object name="FLAG"   map="P0"
+          type="exam"
+          hint="EXAMINE FLAG"
+          initvisible="true"   onClick="showBook" param="32&noteBook_1_0" trigger="NONE&-WALL1" showObject="" popUp="28"  
+        />
+        <!--HIDDEN-->
+        <object name="FLINT STONES"   map="H0"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="GOLDEN SHIELD"    map="H0"
+          type="hidden"
+          part="1"         initvisible="true" 
+        />
+        <object name="GOLDEN SHIELD"    map="H0"
+          type="hidden"
+          part="3"        initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="OLD SHOE"/>
+        <object name="GOLDEN SHIELD"/>
+        <object name="TRAY"/>
+        <object name="FLINT STONES"/>
+        <object name="FIREWOOD1"/>
+      </panel>
+    </room>
+    <room id="1" name="Ship"       type="sub"  main="0" bitmap="LBG00-1" puzzleCount="1" placeCount="2" pieceCount="2">
+      <stage>
+        <object name="MGViking" 
+          type="minigame"
+          initvisible="true"     onComplete="show_objects(FLINT STONES#2)&P(0)" 
+        />
+        <object name="ANCHOR"
+          type="back"
+          initvisible="true"  
+        />
+        <object name="ANCHOR CHAIN"   map="M0"  sound="5"
+          type="work"
+          hint="ANCHOR"
+          initvisible="true"          onClick="disappear" param="ANCHOR" trigger="CHAIN" showObject="" 
+        />
+        <object name="TORN SAIL"    map="M0"   sound="5"
+          type="work"
+          hint="TORN SAIL"
+          initvisible="true"          onClick="disappear" param="this"   trigger="PATCH" showObject="" 
+        />  
+        <!--HIDDEN-->
+        <object name="FLINT STONES"   map="H0"
+          type="hidden"
+          part="2"          initvisible="false" 
+        />
+        <object name="GOLDEN SHIELD"    map="H0"
+          type="hidden"
+          part="2"          initvisible="true" 
+        />
+      </stage>
+      <panel>
+        <object name="OLD SHOE"/>
+        <object name="GOLDEN SHIELD"/>
+        <object name="TRAY"/>
+        <object name="FLINT STONES"/>
+        <object name="FIREWOOD1"/>
+      </panel>
+    </room>
+    <room id="2" name="Tavern"     type="main" main="1" bitmap="LBG02" puzzleCount="1" placeCount="2" pieceCount="4">
+      <stage>
+        <object name="VIKING HELMENT1"
+          type="back"
+          initvisible="true"  
+        />
+        <object name="VIKING HELMENT"   map="M2"   sound="5"
+          type="work"
+          hint="VIKING HELMENT"
+          initvisible="true" onClick="disappear" param="VIKING HELMENT1" trigger="WING" showObject="" 
+        />
+        <object name="TAVERN KEEPER"    map="M2"   sound="5"
+          type="work"
+          hint="TAVERN KEEPER"
+          initvisible="true" onClick="disappear" param="this" trigger="TRAY" showObject=""  
+        />
+        <object name="PUBLIC PHONE"
+          type="goto"
+          hint="PUBLIC PHONE"
+          initvisible="true"   onClick="goto"    param="3"   trigger="" showObject=""
+        />  
+        <!--HIDDEN-->
+        <object name="PATCH"    map="H2"
+          type="hidden"
+          part="1"          initvisible="true" 
+        />
+        <object name="PATCH"    map="H2"
+          type="hidden"
+          part="2"          initvisible="true" 
+        />
+        <object name="PATCH"    map="H2"
+          type="hidden"
+          part="3"          initvisible="true" 
+        />
+        <object name="FIREWOOD2"    map="H2"
+          type="hidden"
+          part="2"          initvisible="false" 
+        />
+        <object name="CAT_RUN"
+          type="anim"
+          initvisible = "false"  popUp="-1"
+        />
+        <object name="CAT"    map="P2"  sound="9"
+          type="work"
+          hint="SLEEPING CAT"
+          initvisible = "true" onClick="hide" param="this" trigger="OLD SHOE" showObject="CAT_RUN&FIREWOOD2#2"
+        />
+      </stage>
+      <panel>
+        <object name="PATCH"/>
+        <object name="GOLDEN SWORD"/>
+        <object name="FIREWOOD2"/>
+        <object name="JUG"/>
+        <object name="HAMMER"/>
+      </panel>
+    </room>
+    <room id="3" name="Phone"      type="sub"  main="1" bitmap="LBG02-1" puzzleCount="1" placeCount="0" pieceCount="0">
+      <stage>
+        <object name="MGTelephone" depth="-1"
+          type="minigame"
+          initvisible="true" onComplete="show_room(4,+BIRD_FLY,-BIRD)&P(2)&play_sound(85,87)"
+        />
+      </stage>
+      <panel>
+        <object name="PATCH"/>
+        <object name="GOLDEN SWORD"/>
+        <object name="FIREWOOD2"/>
+        <object name="JUG"/>
+        <object name="HAMMER"/>
+      </panel>
+    </room>
+    <room id="4" name="Temple"     type="main" main="2" bitmap="LBG03" puzzleCount="3" placeCount="2" pieceCount="4">
+      <stage>
+        <object name="FREYA BACK"
+          type="back"
+          initvisible="false"
+        />
+        <object name="FREYA" map="P4"   sound="5"
+          type="speak"
+          hint="FREYA"
+          initvisible="false"   onClick="disappear"      param="this" trigger="GOLDEN SHIELD&GOLDEN SWORD" showObject="FREYA1+@GSHIELD&FREYA1+@GSWORD"  popUp="42"
+        />
+        <object name="FREYA1" map="P4"   sound="5"
+          type="speak"
+          hint="FREYA"
+          initvisible="false"   onClick="disappear"      param="this" trigger="GOLDEN SHIELD&GOLDEN SWORD" showObject="FREYA BACK+@GSHIELD&FREYA BACK+@GSWORD"  popUp="43"
+        />
+        <object name="FREYA_APPEAR"
+          type="anim"
+          hint="FREYA"
+          initvisible="false" showObject="FREYA" popUp="41"
+        />
+        <object name="BIRD"
+          type="back"
+          initvisible="true"
+        />
+        <object name="BIRD_FLY"
+          type="anim"
+          initvisible = "false" showObject="CAT STATUE HEAD#3" popUp="-1" param="back"
+        />  
+        <object name="CAT STATUE1"
+          type="back"
+          initvisible="true" 
+        />
+        <object name="CAT STATUE" map="P4"  sound="5&19"
+          type="work"
+          hint="CAT STATUE"     initvisible="true"
+          onClick="disappear"      param="CAT STATUE1" trigger="CAT STATUE HEAD" showObject="FREYA_APPEAR"
+        />
+        <object name="GSWORD"
+          type="back"
+          initvisible="false"
+        />
+        <object name="GSHIELD"
+          type="back"
+          initvisible="false"
+        />
+        <object name="ROPES1"
+          type="back"
+          initvisible="true" 
+        />
+        <object name="ROPES" map="M4"   sound="5"
+          type="work"
+          hint="ROPES"
+          initvisible="true"   onClick="disappear"      param="ROPES1" trigger="ROPE KNOT" showObject=""
+        />
+        <object name="JUGS1" 
+          type="back"
+          initvisible="true" 
+        />
+        <object name="JUGS"  map="M4"   sound="5"
+          type="work"
+          hint="JUGS"
+          initvisible="true"   onClick="disappear"      param="JUGS1" trigger="JUG" showObject=""
+        />
+        <!--HIDDEN-->
+        <object name="EGGS" map="H4"
+          type="hidden"
+          part="1"         initvisible="true"
+        />
+        <object name="EGGS" map="H4"
+          type="hidden"
+          part="2"         initvisible="true"
+        />
+        <object name="EGGS" map="H4"
+          type="hidden"
+          part="3"         initvisible="true"
+        />
+        <object name="CAT STATUE HEAD" map="H4"
+          type="hidden"
+          part="3"         initvisible="false"
+        />
+      </stage>
+      <panel>
+        <object name="CAT STATUE HEAD"/>
+        <object name="EGGS"/>
+        <object name="BEAD"/>
+        <object name="CHAIN"/>
+        <object name="STONE CROWN"/>
+      </panel>
+    </room>
+    <room id="5" name="FrostGiant" type="main" main="3" bitmap="LBG01" puzzleCount="3" placeCount="2" pieceCount="7">
+      <stage>
+        <object name="FROST GIANT1"
+          type="back"
+          initvisible="true"
+        />
+        
+        <object name="CAVE ENTRY"
+          type="goto"
+          hint="ENTER CAVE"
+          initvisible="true"   onClick="goto"       param="6"   trigger="-FROST GIANT1" popUp="30"
+        />
+        
+        <object name="MELT"   sound="10&59"
+          type="anim"
+          initvisible="false" popUp="33" hideObject="FROST GIANT1"  
+        />
+        
+        <object name="FIRE PLACE2" map="P5"   sound="22_59_10"
+          type="work"
+          hint="FIREPLACE"
+          initvisible="false"   onClick="disappear"      param="FROST GIANT1" trigger="FLINT STONES" showObject="MELT"
+        />
+        
+        <object name="FIRE PLACE1" map="P5"   sound="55"
+          type="work"
+          hint="FIREPLACE"
+          initvisible="false"   onClick="disappear"      param="this" trigger="FIREWOOD1&FIREWOOD2" showObject="FIRE PLACE2"
+          popUp="29" popUpTrigger="FLINT STONES"
+        />
+        
+        <object name="FIRE PLACEM" map="P5"  sound="55"
+          type="work"
+          hint="FIREPLACE"
+          initvisible="true"   onClick="disappear"      param="this" trigger="FIREWOOD1&FIREWOOD2" showObject="FIRE PLACE1"
+          popUp="37" popUpTrigger="FLINT STONES"
+        />
+        
+        <object name="STONE STATUE1"
+          type="back"
+          initvisible="true" 
+        />
+        <object name="STONE STATUE" map="M5"   sound="5"
+          type="work"
+          hint="STONE STATUE"
+          initvisible="true"   onClick="disappear"      param="STONE STATUE1" trigger="STONE CROWN" showObject=""
+        />
+        <object name="ANVIL1"
+          type="back"
+          initvisible="true" 
+        /> 
+        <object name="ANVIL"  map="M5"     sound="5"
+          type="work"
+          hint="ANVIL"
+          initvisible="true"   onClick="disappear"      param="ANVIL1" trigger="HAMMER" showObject=""
+        />
+        <!--HIDDEN-->
+        <object name="PIGLETS" map="H5"
+          type="hidden"
+          part="1"         initvisible="true"
+        />
+        <object name="PIGLETS"  map="H5"
+          type="hidden"
+          part="2"         initvisible="true"
+        />
+        <object name="PIGLETS"  map="H5"
+          type="hidden"
+          part="3"         initvisible="true"
+        />
+        <object name="RUBY"  map="H5"
+          type="hidden"
+          part="1"         initvisible="true"
+        />
+        <object name="RUBY"  map="H5"
+          type="hidden"
+          part="2"         initvisible="true"
+        />
+        <object name="RUBY"  map="H5"
+          type="hidden"
+          part="3"         initvisible="true"
+        />
+        <object name="RUBY"  map="H5"
+          type="hidden"
+          part="4"         initvisible="true"
+        />
+      </stage>
+      <panel>
+        <object name="LADDER"/>
+        <object name="RUBY"/>
+        <object name="WING"/>
+        <object name="PIGLETS"/>
+        <object name="ROPE KNOT"/>
+      </panel>
+    </room>
+    <room id="6" name="Cave"       type="sub"  main="3" bitmap="LBG01-1" puzzleCount="0" placeCount="2" pieceCount="0">
+      <stage>
+        <object name="RUBY SHIELD1"
+          type="back"
+          initvisible="true" 
+        />
+        <object name="RUBY SHIELD"  map="M5"   sound="5"
+          type="work"
+          hint="RUBY SHIELD"
+          initvisible="true"   onClick="disappear"      param="RUBY SHIELD1" trigger="RUBY"
+        />
+        <object name="NECKLACE1"
+          type="back"
+          initvisible="true" 
+        />
+        <object name="NECKLACE"  map="M5"   sound="5"
+          type="work"
+          hint="NECKLACE"
+          initvisible="true"   onClick="disappear"      param="NECKLACE1" trigger="BEAD"
+        />
+        <object name="EXIT1"
+          type="exit"
+          hint="ENTER PORTAL"
+          initvisible="true" popUp="27"
+        />
+      </stage>
+      <panel>
+        <object name="LADDER"/>
+        <object name="RUBY"/>
+        <object name="WING"/>
+        <object name="PIGLETS"/>
+        <object name="ROPE KNOT"/>
+      </panel>
+    </room>
+  </rooms>
+  <inventuries>
+    <inventurie name="OLD SHOE"       type="puzzle" toFind="0" />
+    <inventurie name="GOLDEN SHIELD"  type="puzzle" toFind="1-2-3" />
+    <inventurie name="TRAY"           type="miss"   toFind="0" />
+    <inventurie name="FLINT STONES"   type="puzzle" toFind="1-2" />
+    <inventurie name="FIREWOOD1"      type="puzzle" toFind="0" />
+    <inventurie name="LADDER"         type="puzzle" toFind="0" />
+    <inventurie name="RUBY"           type="miss"   toFind="1-2-3-4" />
+    <inventurie name="WING"           type="miss"   toFind="0" />
+    <inventurie name="PIGLETS"        type="miss"   toFind="1-2-3" />
+    <inventurie name="ROPE KNOT"      type="miss"   toFind="0" />
+    <inventurie name="PATCH"          type="miss"   toFind="1-2-3" />
+    <inventurie name="GOLDEN SWORD"   type="puzzle" toFind="0" />
+    <inventurie name="FIREWOOD2"      type="puzzle" toFind="2" />
+    <inventurie name="JUG"            type="miss"   toFind="0" />
+    <inventurie name="HAMMER"         type="miss"   toFind="0" />
+    <inventurie name="CAT STATUE HEAD" type="puzzle" toFind="3" />
+    <inventurie name="EGGS"           type="miss"   toFind="1-2-3" />
+    <inventurie name="BEAD"           type="miss"   toFind="0" />
+    <inventurie name="CHAIN"          type="miss"   toFind="0" />
+    <inventurie name="STONE CROWN"    type="miss"   toFind="0" />
+  </inventuries>
+  <startRoom>0</startRoom>
+  <endRoom>6</endRoom>
+  <tutorial present="false">
+  </tutorial>
+</level>

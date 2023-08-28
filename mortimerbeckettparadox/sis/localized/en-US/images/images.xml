@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+ 
+  <image id="mainmenuBackground" x="97" y="302">mm_bg.jpg</image>  
+  
+  <image id="gamePanel0" x="0" y="0">mfinvbg0.jpg</image>
+  <image id="gamePanel1" x="0" y="0">mfinvbg1.jpg</image>
+  <image id="gamePanel2" x="0" y="0">mfinvbg2.jpg</image>
+  <image id="gamePanelFound" x="0" y="0">found.png</image>
+  
+  <image id="noteBook_1_0" x="0" y="0">NB01.jpg</image>
+  <image id="noteBook_0_0" x="0" y="0">NB04.jpg</image>
+  <image id="noteBook_2_0" x="0" y="0">NB02.jpg</image>
+  
+  <!-- Tutorial -->
+  <image id="Tutorial" x="0" y="0">MapTutorial.jpg</image>
+  <image id="Manor" x="93" y="40">Manor.png</image>
+  <image id="Chapel" x="337" y="72">Chapel.png</image>
+  
+  <image id="Viking" x="0" y="0">Map0.jpg</image>
+  <image id="Village" x="69" y="128">Village.png</image>
+  <image id="FrostGiant" x="226" y="3">FrostGiant.png</image>
+  <image id="Tavern" x="281" y="193">Tavern.png</image>
+  <image id="Temple" x="452" y="77">Temple.png</image>
+  
+  <image id="FrenchRevolution" x="0" y="0">MapFrenchRevolution.jpg</image>
+  <image id="Bastille" x="352" y="33">Bastille.png</image>
+  <image id="Shop" x="331" y="179">Shop.png</image>
+  <image id="Street" x="145" y="220">Street.png</image>
+  <image id="Chateau" x="52" y="-8">Chateau.png</image>
+  
+  <image id="LBG07-2" x="52" y="-8">TreeBG.jpg</image>
+
+  
+</root>

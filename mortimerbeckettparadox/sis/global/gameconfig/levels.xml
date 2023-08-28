@@ -1,0 +1,5 @@
+<levels>
+  <level id = "0" path = "global/gameconfig/level0.xml" />
+  <level id = "1" path = "global/gameconfig/level1.xml" />
+  <level id = "2" path = "global/gameconfig/level2.xml" />
+</levels>
